@@ -6,8 +6,8 @@ services:
     container_name: vpn_all_in_one
     restart: unless-stopped
     volumes:
+      - ./vpn:/vpn
       - ./data:/data
-      - ./configs/server.json:/vpn/server.json:rw
       - ./ssl:/opt/ssl:ro
       - ./configs/haproxy.cfg:/etc/haproxy/haproxy.cfg:rw
       - ./bd:/var/lib/bd

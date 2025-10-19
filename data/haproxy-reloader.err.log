@@ -1,0 +1,8 @@
+supervisor: couldn't exec /usr/local/bin/haproxy-reloader.sh: EIO
+supervisor: child process was not spawned
+supervisor: couldn't exec /usr/local/bin/haproxy-reloader.sh: EIO
+supervisor: child process was not spawned
+supervisor: couldn't exec /usr/local/bin/haproxy-reloader.sh: EIO
+supervisor: child process was not spawned
+supervisor: couldn't exec /usr/local/bin/haproxy-reloader.sh: EIO
+supervisor: child process was not spawned

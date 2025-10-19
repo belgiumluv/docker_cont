@@ -1,0 +1,48 @@
+[singbox-reloader] watching /vpn/server.json, interval=2s
+[singbox-reloader] watching /vpn/server.json, interval=2s
+[singbox-reloader] watching /vpn/server.json, interval=2s
+[singbox-reloader] watching /vpn/server.json, interval=2s
+[singbox-reloader] watching /vpn/server.json, interval=2s
+[singbox-reloader] watching /vpn/server.json, interval=2s
+[singbox-reloader] watching /vpn/server.json, interval=2s
+[singbox-reloader] watching /vpn/server.json, interval=2s
+[singbox-reloader] watching /vpn/server.json, interval=2s
+[singbox-reloader] detected change, validating…
+[singbox-reloader] config valid, restarting via supervisor
+unix:///var/run/supervisor.sock no such file
+[singbox-reloader] supervisorctl restart failed
+[singbox-reloader] changes still flowing, waiting…
+[singbox-reloader] watching /vpn/server.json, interval=2s
+[singbox-reloader] detected change, validating…
+[singbox-reloader] config valid, restarting via supervisor
+unix:///var/run/supervisor.sock no such file
+[singbox-reloader] supervisorctl restart failed
+[singbox-reloader] changes still flowing, waiting…
+[singbox-reloader] watching /vpn/server.json, interval=2s
+[singbox-reloader] detected change, validating…
+[singbox-reloader] config valid, restarting via supervisor
+unix:///var/run/supervisor.sock no such file
+[singbox-reloader] supervisorctl restart failed
+[singbox-reloader] changes still flowing, waiting…
+[singbox-reloader] watching /vpn/server.json, interval=2s
+[singbox-reloader] changes still flowing, waiting…
+[singbox-reloader] detected change, validating…
+[singbox-reloader] config valid, restarting via supervisor
+unix:///var/run/supervisor.sock no such file
+[singbox-reloader] supervisorctl restart failed
+[singbox-reloader] detected change, validating…
+[singbox-reloader] config valid, restarting via supervisor
+unix:///var/run/supervisor.sock no such file
+[singbox-reloader] supervisorctl restart failed
+[singbox-reloader] watching /vpn/server.json, interval=2s
+[singbox-reloader] detected change, validating…
+[singbox-reloader] config valid, restarting via supervisor
+unix:///var/run/supervisor.sock no such file
+[singbox-reloader] supervisorctl restart failed
+[singbox-reloader] changes still flowing, waiting…
+[singbox-reloader] watching /vpn/server.json, interval=2s
+[singbox-reloader] changes still flowing, waiting…
+[singbox-reloader] detected change, validating…
+[singbox-reloader] config valid, restarting via supervisor
+unix:///var/run/supervisor.sock no such file
+[singbox-reloader] supervisorctl restart failed

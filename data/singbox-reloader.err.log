@@ -1,0 +1,8 @@
+supervisor: couldn't exec /usr/local/bin/singbox-reloader.sh: EIO
+supervisor: child process was not spawned
+supervisor: couldn't exec /usr/local/bin/singbox-reloader.sh: EIO
+supervisor: child process was not spawned
+supervisor: couldn't exec /usr/local/bin/singbox-reloader.sh: EIO
+supervisor: child process was not spawned
+supervisor: couldn't exec /usr/local/bin/singbox-reloader.sh: EIO
+supervisor: child process was not spawned

@@ -1,0 +1,20 @@
+services:
+  vpn:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: vpn_all_in_one
+    restart: unless-stopped
+    volumes:
+      - ./data:/data
+      - ./configs/server.json:/vpn/server.json:rw
+      - ./ssl:/opt/ssl:ro
+      - ./configs/haproxy.cfg:/etc/haproxy/haproxy.cfg:rw
+      - ./bd:/var/lib/bd
+      - ./configs:/app/configs:ro
+      
+      # если есть ssl:
+      # - ./vpn/ssl:/vpn/ssl:ro
+    ports:
+      - "8443:443"              # поменял с 443:443, чтобы на Windows не конфликтовало
+      - "8080:8080"               # если sing-box слушает 80; можно убрать, если не нужен

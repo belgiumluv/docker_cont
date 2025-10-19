@@ -1,0 +1,44 @@
+Traceback (most recent call last):
+  File "/app/scripts/10_mutate_server_json.py", line 154, in <module>
+    main()
+  File "/app/scripts/10_mutate_server_json.py", line 58, in main
+    shutil.copy2(MASQ_SRC, MASQ_DST)
+  File "/usr/lib/python3.12/shutil.py", line 475, in copy2
+    copyfile(src, dst, follow_symlinks=follow_symlinks)
+  File "/usr/lib/python3.12/shutil.py", line 260, in copyfile
+    with open(src, 'rb') as fsrc:
+         ^^^^^^^^^^^^^^^
+IsADirectoryError: [Errno 21] Is a directory: '/app/configs/masq_domain_list.json'
+Traceback (most recent call last):
+  File "/app/scripts/10_mutate_server_json.py", line 154, in <module>
+    main()
+  File "/app/scripts/10_mutate_server_json.py", line 58, in main
+    shutil.copy2(MASQ_SRC, MASQ_DST)
+  File "/usr/lib/python3.12/shutil.py", line 475, in copy2
+    copyfile(src, dst, follow_symlinks=follow_symlinks)
+  File "/usr/lib/python3.12/shutil.py", line 260, in copyfile
+    with open(src, 'rb') as fsrc:
+         ^^^^^^^^^^^^^^^
+IsADirectoryError: [Errno 21] Is a directory: '/app/configs/masq_domain_list.json'
+Traceback (most recent call last):
+  File "/app/scripts/10_mutate_server_json.py", line 154, in <module>
+    main()
+  File "/app/scripts/10_mutate_server_json.py", line 58, in main
+    shutil.copy2(MASQ_SRC, MASQ_DST)
+  File "/usr/lib/python3.12/shutil.py", line 475, in copy2
+    copyfile(src, dst, follow_symlinks=follow_symlinks)
+  File "/usr/lib/python3.12/shutil.py", line 260, in copyfile
+    with open(src, 'rb') as fsrc:
+         ^^^^^^^^^^^^^^^
+IsADirectoryError: [Errno 21] Is a directory: '/app/configs/masq_domain_list.json'
+Traceback (most recent call last):
+  File "/app/scripts/10_mutate_server_json.py", line 154, in <module>
+    main()
+  File "/app/scripts/10_mutate_server_json.py", line 58, in main
+    shutil.copy2(MASQ_SRC, MASQ_DST)
+  File "/usr/lib/python3.12/shutil.py", line 475, in copy2
+    copyfile(src, dst, follow_symlinks=follow_symlinks)
+  File "/usr/lib/python3.12/shutil.py", line 260, in copyfile
+    with open(src, 'rb') as fsrc:
+         ^^^^^^^^^^^^^^^
+IsADirectoryError: [Errno 21] Is a directory: '/app/configs/masq_domain_list.json'

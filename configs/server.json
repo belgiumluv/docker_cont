@@ -1,0 +1,906 @@
+{
+    "inbounds": [
+        {
+            "domain_strategy": "prefer_ipv4",
+            "listen": "127.0.0.1",
+            "listen_port": 5021,
+            "sniff": true,
+            "sniff_override_destination": true,
+            "tag": "v10-trojan-grpc",
+            "tcp_fast_open": true,
+            "transport": {
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "service_name": "apiVNTt5bUxURiGFRMQoFtCIr",
+                "type": "grpc"
+            },
+            "type": "trojan",
+            "users": [
+                {
+                    "name": "49d0abc0-15ec-4533-983e-f2cf0320ca23@hiddify.com",
+                    "password": "49d0abc0-15ec-4533-983e-f2cf0320ca23"
+                },
+                {
+                    "name": "cfb4973d-8b61-48d0-b0d9-95fb4d583654@hiddify.com",
+                    "password": "cfb4973d-8b61-48d0-b0d9-95fb4d583654"
+                },
+                {
+                    "name": "fe47abda-99f1-4eb2-9e35-baf9e061d59e@hiddify.com",
+                    "password": "fe47abda-99f1-4eb2-9e35-baf9e061d59e"
+                },
+                {
+                    "name": "0a30555e-c8b2-456a-a6a3-e3a983885946@hiddify.com",
+                    "password": "0a30555e-c8b2-456a-a6a3-e3a983885946"
+                },
+                {
+                    "name": "00b3ab54-be04-4422-9ddd-ce63f154c635@hiddify.com",
+                    "password": "00b3ab54-be04-4422-9ddd-ce63f154c635"
+                },
+                {
+                    "name": "9ce279f3-8953-46b8-a9d5-0d60084dcd19@hiddify.com",
+                    "password": "9ce279f3-8953-46b8-a9d5-0d60084dcd19"
+                },
+                {
+                    "name": "94701540-8c79-4d50-9258-600c0fa3e358@hiddify.com",
+                    "password": "94701540-8c79-4d50-9258-600c0fa3e358"
+                },
+                {
+                    "name": "7b308456-755c-46db-9436-a135f130fd19@hiddify.com",
+                    "password": "7b308456-755c-46db-9436-a135f130fd19"
+                }
+            ]
+        },
+        {
+            "domain_strategy": "prefer_ipv4",
+            "listen": "127.0.0.1",
+            "listen_port": 5001,
+            "sniff": true,
+            "sniff_override_destination": true,
+            "tag": "v10-vless-grpc",
+            "tcp_fast_open": true,
+            "transport": {
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "service_name": "apiOOO1GukZMsSL2frxIEz4ZQ",
+                "type": "grpc"
+            },
+            "type": "vless",
+            "users": [
+                {
+                    "flow": "",
+                    "name": "49d0abc0-15ec-4533-983e-f2cf0320ca23@hiddify.com",
+                    "uuid": "49d0abc0-15ec-4533-983e-f2cf0320ca23"
+                },
+                {
+                    "flow": "",
+                    "name": "cfb4973d-8b61-48d0-b0d9-95fb4d583654@hiddify.com",
+                    "uuid": "cfb4973d-8b61-48d0-b0d9-95fb4d583654"
+                },
+                {
+                    "flow": "",
+                    "name": "fe47abda-99f1-4eb2-9e35-baf9e061d59e@hiddify.com",
+                    "uuid": "fe47abda-99f1-4eb2-9e35-baf9e061d59e"
+                },
+                {
+                    "flow": "",
+                    "name": "0a30555e-c8b2-456a-a6a3-e3a983885946@hiddify.com",
+                    "uuid": "0a30555e-c8b2-456a-a6a3-e3a983885946"
+                },
+                {
+                    "flow": "",
+                    "name": "00b3ab54-be04-4422-9ddd-ce63f154c635@hiddify.com",
+                    "uuid": "00b3ab54-be04-4422-9ddd-ce63f154c635"
+                },
+                {
+                    "flow": "",
+                    "name": "9ce279f3-8953-46b8-a9d5-0d60084dcd19@hiddify.com",
+                    "uuid": "9ce279f3-8953-46b8-a9d5-0d60084dcd19"
+                },
+                {
+                    "flow": "",
+                    "name": "94701540-8c79-4d50-9258-600c0fa3e358@hiddify.com",
+                    "uuid": "94701540-8c79-4d50-9258-600c0fa3e358"
+                },
+                {
+                    "flow": "",
+                    "name": "7b308456-755c-46db-9436-a135f130fd19@hiddify.com",
+                    "uuid": "7b308456-755c-46db-9436-a135f130fd19"
+                }
+            ]
+        },
+        {
+            "domain_strategy": "prefer_ipv4",
+            "listen": "127.0.0.1",
+            "listen_port": 5011,
+            "sniff": true,
+            "sniff_override_destination": true,
+            "tag": "v10-vmess-grpc",
+            "tcp_fast_open": true,
+            "transport": {
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "service_name": "apiA3rHDfNybBpXKYIiIiFdLf",
+                "type": "grpc"
+            },
+            "type": "vmess",
+            "users": [
+                {
+                    "alterId": 0,
+                    "name": "49d0abc0-15ec-4533-983e-f2cf0320ca23@hiddify.com",
+                    "uuid": "49d0abc0-15ec-4533-983e-f2cf0320ca23"
+                },
+                {
+                    "alterId": 0,
+                    "name": "cfb4973d-8b61-48d0-b0d9-95fb4d583654@hiddify.com",
+                    "uuid": "cfb4973d-8b61-48d0-b0d9-95fb4d583654"
+                },
+                {
+                    "alterId": 0,
+                    "name": "fe47abda-99f1-4eb2-9e35-baf9e061d59e@hiddify.com",
+                    "uuid": "fe47abda-99f1-4eb2-9e35-baf9e061d59e"
+                },
+                {
+                    "alterId": 0,
+                    "name": "0a30555e-c8b2-456a-a6a3-e3a983885946@hiddify.com",
+                    "uuid": "0a30555e-c8b2-456a-a6a3-e3a983885946"
+                },
+                {
+                    "alterId": 0,
+                    "name": "00b3ab54-be04-4422-9ddd-ce63f154c635@hiddify.com",
+                    "uuid": "00b3ab54-be04-4422-9ddd-ce63f154c635"
+                },
+                {
+                    "alterId": 0,
+                    "name": "9ce279f3-8953-46b8-a9d5-0d60084dcd19@hiddify.com",
+                    "uuid": "9ce279f3-8953-46b8-a9d5-0d60084dcd19"
+                },
+                {
+                    "alterId": 0,
+                    "name": "94701540-8c79-4d50-9258-600c0fa3e358@hiddify.com",
+                    "uuid": "94701540-8c79-4d50-9258-600c0fa3e358"
+                },
+                {
+                    "alterId": 0,
+                    "name": "7b308456-755c-46db-9436-a135f130fd19@hiddify.com",
+                    "uuid": "7b308456-755c-46db-9436-a135f130fd19"
+                }
+            ]
+        },
+        {
+            "domain_strategy": "prefer_ipv4",
+            "listen": "127.0.0.1",
+            "listen_port": 5003,
+            "sniff": true,
+            "sniff_override_destination": true,
+            "tag": "v10-vless-httpupgrade",
+            "tcp_fast_open": true,
+            "transport": {
+                "path": "/filesQYmBRrEU2bD4EyQnbgzH3G",
+                "type": "httpupgrade"
+            },
+            "type": "vless",
+            "users": [
+                {
+                    "flow": "",
+                    "name": "49d0abc0-15ec-4533-983e-f2cf0320ca23@hiddify.com",
+                    "uuid": "49d0abc0-15ec-4533-983e-f2cf0320ca23"
+                },
+                {
+                    "flow": "",
+                    "name": "cfb4973d-8b61-48d0-b0d9-95fb4d583654@hiddify.com",
+                    "uuid": "cfb4973d-8b61-48d0-b0d9-95fb4d583654"
+                },
+                {
+                    "flow": "",
+                    "name": "fe47abda-99f1-4eb2-9e35-baf9e061d59e@hiddify.com",
+                    "uuid": "fe47abda-99f1-4eb2-9e35-baf9e061d59e"
+                },
+                {
+                    "flow": "",
+                    "name": "0a30555e-c8b2-456a-a6a3-e3a983885946@hiddify.com",
+                    "uuid": "0a30555e-c8b2-456a-a6a3-e3a983885946"
+                },
+                {
+                    "flow": "",
+                    "name": "00b3ab54-be04-4422-9ddd-ce63f154c635@hiddify.com",
+                    "uuid": "00b3ab54-be04-4422-9ddd-ce63f154c635"
+                },
+                {
+                    "flow": "",
+                    "name": "9ce279f3-8953-46b8-a9d5-0d60084dcd19@hiddify.com",
+                    "uuid": "9ce279f3-8953-46b8-a9d5-0d60084dcd19"
+                },
+                {
+                    "flow": "",
+                    "name": "94701540-8c79-4d50-9258-600c0fa3e358@hiddify.com",
+                    "uuid": "94701540-8c79-4d50-9258-600c0fa3e358"
+                },
+                {
+                    "flow": "",
+                    "name": "7b308456-755c-46db-9436-a135f130fd19@hiddify.com",
+                    "uuid": "7b308456-755c-46db-9436-a135f130fd19"
+                }
+            ]
+        },
+        {
+            "domain_strategy": "prefer_ipv4",
+            "listen": "127.0.0.1",
+            "listen_port": 5002,
+            "sniff": true,
+            "sniff_override_destination": true,
+            "tag": "v10-vless-tcp",
+            "tcp_fast_open": true,
+            "transport": {
+                "idle_timeout": "15s",
+                "path": "/userTxyXmgnaMlHyiQ3RmFG5Cy",
+                "ping_timeout": "15s",
+                "type": "http"
+            },
+            "type": "vless",
+            "users": [
+                {
+                    "flow": "",
+                    "name": "49d0abc0-15ec-4533-983e-f2cf0320ca23@hiddify.com",
+                    "uuid": "49d0abc0-15ec-4533-983e-f2cf0320ca23"
+                },
+                {
+                    "flow": "",
+                    "name": "cfb4973d-8b61-48d0-b0d9-95fb4d583654@hiddify.com",
+                    "uuid": "cfb4973d-8b61-48d0-b0d9-95fb4d583654"
+                },
+                {
+                    "flow": "",
+                    "name": "fe47abda-99f1-4eb2-9e35-baf9e061d59e@hiddify.com",
+                    "uuid": "fe47abda-99f1-4eb2-9e35-baf9e061d59e"
+                },
+                {
+                    "flow": "",
+                    "name": "0a30555e-c8b2-456a-a6a3-e3a983885946@hiddify.com",
+                    "uuid": "0a30555e-c8b2-456a-a6a3-e3a983885946"
+                },
+                {
+                    "flow": "",
+                    "name": "00b3ab54-be04-4422-9ddd-ce63f154c635@hiddify.com",
+                    "uuid": "00b3ab54-be04-4422-9ddd-ce63f154c635"
+                },
+                {
+                    "flow": "",
+                    "name": "9ce279f3-8953-46b8-a9d5-0d60084dcd19@hiddify.com",
+                    "uuid": "9ce279f3-8953-46b8-a9d5-0d60084dcd19"
+                },
+                {
+                    "flow": "",
+                    "name": "94701540-8c79-4d50-9258-600c0fa3e358@hiddify.com",
+                    "uuid": "94701540-8c79-4d50-9258-600c0fa3e358"
+                },
+                {
+                    "flow": "",
+                    "name": "7b308456-755c-46db-9436-a135f130fd19@hiddify.com",
+                    "uuid": "7b308456-755c-46db-9436-a135f130fd19"
+                }
+            ]
+        },
+        {
+            "domain_strategy": "prefer_ipv4",
+            "listen": "127.0.0.1",
+            "listen_port": 5010,
+            "sniff": true,
+            "sniff_override_destination": true,
+            "tag": "v10-vmess-ws",
+            "tcp_fast_open": true,
+            "transport": {
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "path": "/assetsfEcx5y6lZll2aGWbDRqYwr",
+                "type": "ws"
+            },
+            "type": "vmess",
+            "users": [
+                {
+                    "alterId": 0,
+                    "name": "49d0abc0-15ec-4533-983e-f2cf0320ca23@hiddify.com",
+                    "uuid": "49d0abc0-15ec-4533-983e-f2cf0320ca23"
+                },
+                {
+                    "alterId": 0,
+                    "name": "cfb4973d-8b61-48d0-b0d9-95fb4d583654@hiddify.com",
+                    "uuid": "cfb4973d-8b61-48d0-b0d9-95fb4d583654"
+                },
+                {
+                    "alterId": 0,
+                    "name": "fe47abda-99f1-4eb2-9e35-baf9e061d59e@hiddify.com",
+                    "uuid": "fe47abda-99f1-4eb2-9e35-baf9e061d59e"
+                },
+                {
+                    "alterId": 0,
+                    "name": "0a30555e-c8b2-456a-a6a3-e3a983885946@hiddify.com",
+                    "uuid": "0a30555e-c8b2-456a-a6a3-e3a983885946"
+                },
+                {
+                    "alterId": 0,
+                    "name": "00b3ab54-be04-4422-9ddd-ce63f154c635@hiddify.com",
+                    "uuid": "00b3ab54-be04-4422-9ddd-ce63f154c635"
+                },
+                {
+                    "alterId": 0,
+                    "name": "9ce279f3-8953-46b8-a9d5-0d60084dcd19@hiddify.com",
+                    "uuid": "9ce279f3-8953-46b8-a9d5-0d60084dcd19"
+                },
+                {
+                    "alterId": 0,
+                    "name": "94701540-8c79-4d50-9258-600c0fa3e358@hiddify.com",
+                    "uuid": "94701540-8c79-4d50-9258-600c0fa3e358"
+                },
+                {
+                    "alterId": 0,
+                    "name": "7b308456-755c-46db-9436-a135f130fd19@hiddify.com",
+                    "uuid": "7b308456-755c-46db-9436-a135f130fd19"
+                }
+            ]
+        },
+        {
+            "domain_strategy": "prefer_ipv4",
+            "listen": "127.0.0.1",
+            "listen_port": 5012,
+            "sniff": true,
+            "sniff_override_destination": true,
+            "tag": "v10-vmess-tcp",
+            "tcp_fast_open": true,
+            "transport": {
+                "idle_timeout": "15s",
+                "path": "/usertBwHulsYFWXGGnHnb0VYBk",
+                "ping_timeout": "15s",
+                "type": "http"
+            },
+            "type": "vmess",
+            "users": [
+                {
+                    "alterId": 0,
+                    "name": "49d0abc0-15ec-4533-983e-f2cf0320ca23@hiddify.com",
+                    "uuid": "49d0abc0-15ec-4533-983e-f2cf0320ca23"
+                },
+                {
+                    "alterId": 0,
+                    "name": "cfb4973d-8b61-48d0-b0d9-95fb4d583654@hiddify.com",
+                    "uuid": "cfb4973d-8b61-48d0-b0d9-95fb4d583654"
+                },
+                {
+                    "alterId": 0,
+                    "name": "fe47abda-99f1-4eb2-9e35-baf9e061d59e@hiddify.com",
+                    "uuid": "fe47abda-99f1-4eb2-9e35-baf9e061d59e"
+                },
+                {
+                    "alterId": 0,
+                    "name": "0a30555e-c8b2-456a-a6a3-e3a983885946@hiddify.com",
+                    "uuid": "0a30555e-c8b2-456a-a6a3-e3a983885946"
+                },
+                {
+                    "alterId": 0,
+                    "name": "00b3ab54-be04-4422-9ddd-ce63f154c635@hiddify.com",
+                    "uuid": "00b3ab54-be04-4422-9ddd-ce63f154c635"
+                },
+                {
+                    "alterId": 0,
+                    "name": "9ce279f3-8953-46b8-a9d5-0d60084dcd19@hiddify.com",
+                    "uuid": "9ce279f3-8953-46b8-a9d5-0d60084dcd19"
+                },
+                {
+                    "alterId": 0,
+                    "name": "94701540-8c79-4d50-9258-600c0fa3e358@hiddify.com",
+                    "uuid": "94701540-8c79-4d50-9258-600c0fa3e358"
+                },
+                {
+                    "alterId": 0,
+                    "name": "7b308456-755c-46db-9436-a135f130fd19@hiddify.com",
+                    "uuid": "7b308456-755c-46db-9436-a135f130fd19"
+                }
+            ]
+        },
+        {
+            "domain_strategy": "prefer_ipv4",
+            "listen": "127.0.0.1",
+            "listen_port": 5013,
+            "sniff": true,
+            "sniff_override_destination": true,
+            "tag": "v10-vmess-httpupgrade",
+            "tcp_fast_open": true,
+            "transport": {
+                "path": "/filesdTS8vaMfbZFVyfq99aTS2h",
+                "type": "httpupgrade"
+            },
+            "type": "vmess",
+            "users": [
+                {
+                    "alterId": 0,
+                    "name": "49d0abc0-15ec-4533-983e-f2cf0320ca23@hiddify.com",
+                    "uuid": "49d0abc0-15ec-4533-983e-f2cf0320ca23"
+                },
+                {
+                    "alterId": 0,
+                    "name": "cfb4973d-8b61-48d0-b0d9-95fb4d583654@hiddify.com",
+                    "uuid": "cfb4973d-8b61-48d0-b0d9-95fb4d583654"
+                },
+                {
+                    "alterId": 0,
+                    "name": "fe47abda-99f1-4eb2-9e35-baf9e061d59e@hiddify.com",
+                    "uuid": "fe47abda-99f1-4eb2-9e35-baf9e061d59e"
+                },
+                {
+                    "alterId": 0,
+                    "name": "0a30555e-c8b2-456a-a6a3-e3a983885946@hiddify.com",
+                    "uuid": "0a30555e-c8b2-456a-a6a3-e3a983885946"
+                },
+                {
+                    "alterId": 0,
+                    "name": "00b3ab54-be04-4422-9ddd-ce63f154c635@hiddify.com",
+                    "uuid": "00b3ab54-be04-4422-9ddd-ce63f154c635"
+                },
+                {
+                    "alterId": 0,
+                    "name": "9ce279f3-8953-46b8-a9d5-0d60084dcd19@hiddify.com",
+                    "uuid": "9ce279f3-8953-46b8-a9d5-0d60084dcd19"
+                },
+                {
+                    "alterId": 0,
+                    "name": "94701540-8c79-4d50-9258-600c0fa3e358@hiddify.com",
+                    "uuid": "94701540-8c79-4d50-9258-600c0fa3e358"
+                },
+                {
+                    "alterId": 0,
+                    "name": "7b308456-755c-46db-9436-a135f130fd19@hiddify.com",
+                    "uuid": "7b308456-755c-46db-9436-a135f130fd19"
+                }
+            ]
+        },
+        {
+            "down_mbps": 300,
+            "listen": "::",
+            "listen_port": 50062,
+            "masquerade": "https://www.microsoft.com:80/",
+            "obfs": {
+                "password": "bPzeQ6jHulQ2Y40UwlB4M9",
+                "type": "salamander"
+            },
+            "tag": "hysteria_in_50062",
+            "tls": {
+                "alpn": [
+                    "h3"
+                ],
+                "certificate_path": "/opt/ssl/sert.crt",
+                "enabled": true,
+                "key_path": "/opt/ssl/sert.crt.key",
+                "max_version": "1.3",
+                "min_version": "1.2",
+                "server_name": ""
+            },
+            "type": "hysteria2",
+            "up_mbps": 150,
+            "users": [
+                {
+                    "name": "49d0abc0-15ec-4533-983e-f2cf0320ca23@hiddify.com",
+                    "password": "49d0abc0-15ec-4533-983e-f2cf0320ca23"
+                },
+                {
+                    "name": "cfb4973d-8b61-48d0-b0d9-95fb4d583654@hiddify.com",
+                    "password": "cfb4973d-8b61-48d0-b0d9-95fb4d583654"
+                },
+                {
+                    "name": "fe47abda-99f1-4eb2-9e35-baf9e061d59e@hiddify.com",
+                    "password": "fe47abda-99f1-4eb2-9e35-baf9e061d59e"
+                },
+                {
+                    "name": "0a30555e-c8b2-456a-a6a3-e3a983885946@hiddify.com",
+                    "password": "0a30555e-c8b2-456a-a6a3-e3a983885946"
+                },
+                {
+                    "name": "00b3ab54-be04-4422-9ddd-ce63f154c635@hiddify.com",
+                    "password": "00b3ab54-be04-4422-9ddd-ce63f154c635"
+                },
+                {
+                    "name": "9ce279f3-8953-46b8-a9d5-0d60084dcd19@hiddify.com",
+                    "password": "9ce279f3-8953-46b8-a9d5-0d60084dcd19"
+                },
+                {
+                    "name": "94701540-8c79-4d50-9258-600c0fa3e358@hiddify.com",
+                    "password": "94701540-8c79-4d50-9258-600c0fa3e358"
+                },
+                {
+                    "name": "7b308456-755c-46db-9436-a135f130fd19@hiddify.com",
+                    "password": "7b308456-755c-46db-9436-a135f130fd19"
+                }
+            ]
+        },
+        {
+            "domain_strategy": "prefer_ipv4",
+            "listen": "0.0.0.0",
+            "listen_port": 43124,
+            "sniff": true,
+            "sniff_override_destination": true,
+            "tag": "realityin_43124",
+            "tls": {
+                "enabled": true,
+                "reality": {
+                    "enabled": true,
+                    "handshake": {
+                        "server": "www.google.com",
+                        "server_port": 443
+                    },
+                    "max_time_difference": "2h",
+                    "private_key": "lz5t3XfROuB3L2yfV_dEjNsjyCQP8ulciLhhFdTZ1Xo",
+                    "short_id": [
+                        "",
+                        "ba3f7d16c063b1",
+                        "96790453bf9f30",
+                        "50db39b9004d69",
+                        "49b03af93fc75d",
+                        "2b15e246fd47c8",
+                        "80a662077daed5",
+                        "c85b2ecb282582",
+                        "0636c240dba2bd"
+                    ]
+                },
+                "server_name": "www.google.com"
+            },
+            "transport": {},
+            "type": "vless",
+            "users": [
+                {
+                    "flow": "xtls-rprx-vision",
+                    "name": "49d0abc0-15ec-4533-983e-f2cf0320ca23@hiddify.com",
+                    "uuid": "49d0abc0-15ec-4533-983e-f2cf0320ca23"
+                },
+                {
+                    "flow": "xtls-rprx-vision",
+                    "name": "cfb4973d-8b61-48d0-b0d9-95fb4d583654@hiddify.com",
+                    "uuid": "cfb4973d-8b61-48d0-b0d9-95fb4d583654"
+                },
+                {
+                    "flow": "xtls-rprx-vision",
+                    "name": "fe47abda-99f1-4eb2-9e35-baf9e061d59e@hiddify.com",
+                    "uuid": "fe47abda-99f1-4eb2-9e35-baf9e061d59e"
+                },
+                {
+                    "flow": "xtls-rprx-vision",
+                    "name": "0a30555e-c8b2-456a-a6a3-e3a983885946@hiddify.com",
+                    "uuid": "0a30555e-c8b2-456a-a6a3-e3a983885946"
+                },
+                {
+                    "flow": "xtls-rprx-vision",
+                    "name": "00b3ab54-be04-4422-9ddd-ce63f154c635@hiddify.com",
+                    "uuid": "00b3ab54-be04-4422-9ddd-ce63f154c635"
+                },
+                {
+                    "flow": "xtls-rprx-vision",
+                    "name": "9ce279f3-8953-46b8-a9d5-0d60084dcd19@hiddify.com",
+                    "uuid": "9ce279f3-8953-46b8-a9d5-0d60084dcd19"
+                },
+                {
+                    "flow": "xtls-rprx-vision",
+                    "name": "94701540-8c79-4d50-9258-600c0fa3e358@hiddify.com",
+                    "uuid": "94701540-8c79-4d50-9258-600c0fa3e358"
+                },
+                {
+                    "flow": "xtls-rprx-vision",
+                    "name": "7b308456-755c-46db-9436-a135f130fd19@hiddify.com",
+                    "uuid": "7b308456-755c-46db-9436-a135f130fd19"
+                }
+            ]
+        },
+        {
+            "domain_strategy": "prefer_ipv4",
+            "listen": "::",
+            "listen_port": 44405,
+            "method": "2022-blake3-aes-256-gcm",
+            "password": "O4a+HF51Wd6q66AjLDnfL+gFgtwnnbWNLvz8h2NVomA=",
+            "sniff": true,
+            "sniff_override_destination": true,
+            "tag": "ss-new",
+            "tcp_fast_open": true,
+            "type": "shadowsocks",
+            "users": [
+                {
+                    "name": "49d0abc0-15ec-4533-983e-f2cf0320ca23@hiddify.com",
+                    "password": "yfUmu78NXGzPd7cp+YXZZabAEjms5p1OpbImiwFel/8="
+                },
+                {
+                    "name": "cfb4973d-8b61-48d0-b0d9-95fb4d583654@hiddify.com",
+                    "password": "hlJfVq5wDR2oEi0AaGX/Ofd5C3rnFVR6LOWfbGAL/uA="
+                },
+                {
+                    "name": "fe47abda-99f1-4eb2-9e35-baf9e061d59e@hiddify.com",
+                    "password": "RMoVCl0HnjGAmsm8jNY7Cw/kON7y+zbYTo+eHu4qdHA="
+                },
+                {
+                    "name": "0a30555e-c8b2-456a-a6a3-e3a983885946@hiddify.com",
+                    "password": "NpkHiRPxGtOib302Ew8hr0xptM8Tm4kOqhj+8/8tyP0="
+                },
+                {
+                    "name": "00b3ab54-be04-4422-9ddd-ce63f154c635@hiddify.com",
+                    "password": "if1EXGDxrTx5YWf+ytt/82epAbOll1wPFaY5dgJm+lQ="
+                },
+                {
+                    "name": "9ce279f3-8953-46b8-a9d5-0d60084dcd19@hiddify.com",
+                    "password": "xQt6wreAe7N61yXmoYcVuxa245sywfcDjReqnpXYn98="
+                },
+                {
+                    "name": "94701540-8c79-4d50-9258-600c0fa3e358@hiddify.com",
+                    "password": "fZj6JkEM9kMBCLJahkY4OF9m1TTNatZEFmHwIDM2eOo="
+                },
+                {
+                    "name": "7b308456-755c-46db-9436-a135f130fd19@hiddify.com",
+                    "password": "QFsfhrB5nF0oNrxSag+yqC1X2mLko8IiAbdXfsMiPCk="
+                }
+            ]
+        },
+        {
+            "detour": "ss-new",
+            "handshake": {
+                "server": "www.apple.com",
+                "server_port": 443
+            },
+            "listen": "127.0.0.1",
+            "listen_port": 1030,
+            "sniff": true,
+            "sniff_override_destination": true,
+            "tag": "shadowtls",
+            "tcp_fast_open": true,
+            "type": "shadowtls",
+            "users": [
+                {
+                    "password": "49d0abc0-15ec-4533-983e-f2cf0320ca23"
+                },
+                {
+                    "password": "cfb4973d-8b61-48d0-b0d9-95fb4d583654"
+                },
+                {
+                    "password": "fe47abda-99f1-4eb2-9e35-baf9e061d59e"
+                },
+                {
+                    "password": "0a30555e-c8b2-456a-a6a3-e3a983885946"
+                },
+                {
+                    "password": "00b3ab54-be04-4422-9ddd-ce63f154c635"
+                },
+                {
+                    "password": "9ce279f3-8953-46b8-a9d5-0d60084dcd19"
+                },
+                {
+                    "password": "94701540-8c79-4d50-9258-600c0fa3e358"
+                },
+                {
+                    "password": "7b308456-755c-46db-9436-a135f130fd19"
+                }
+            ],
+            "version": 3
+        },
+        {
+            "domain_strategy": "prefer_ipv4",
+            "listen": "127.0.0.1",
+            "listen_port": 5022,
+            "sniff": true,
+            "sniff_override_destination": true,
+            "tag": "v10-trojan-tcp",
+            "tcp_fast_open": true,
+            "transport": {
+                "idle_timeout": "15s",
+                "path": "/userib4hysr5o5V9J1uIF2Bbvj",
+                "ping_timeout": "15s",
+                "type": "http"
+            },
+            "type": "trojan",
+            "users": [
+                {
+                    "name": "49d0abc0-15ec-4533-983e-f2cf0320ca23@hiddify.com",
+                    "password": "49d0abc0-15ec-4533-983e-f2cf0320ca23"
+                },
+                {
+                    "name": "cfb4973d-8b61-48d0-b0d9-95fb4d583654@hiddify.com",
+                    "password": "cfb4973d-8b61-48d0-b0d9-95fb4d583654"
+                },
+                {
+                    "name": "fe47abda-99f1-4eb2-9e35-baf9e061d59e@hiddify.com",
+                    "password": "fe47abda-99f1-4eb2-9e35-baf9e061d59e"
+                },
+                {
+                    "name": "0a30555e-c8b2-456a-a6a3-e3a983885946@hiddify.com",
+                    "password": "0a30555e-c8b2-456a-a6a3-e3a983885946"
+                },
+                {
+                    "name": "00b3ab54-be04-4422-9ddd-ce63f154c635@hiddify.com",
+                    "password": "00b3ab54-be04-4422-9ddd-ce63f154c635"
+                },
+                {
+                    "name": "9ce279f3-8953-46b8-a9d5-0d60084dcd19@hiddify.com",
+                    "password": "9ce279f3-8953-46b8-a9d5-0d60084dcd19"
+                },
+                {
+                    "name": "94701540-8c79-4d50-9258-600c0fa3e358@hiddify.com",
+                    "password": "94701540-8c79-4d50-9258-600c0fa3e358"
+                },
+                {
+                    "name": "7b308456-755c-46db-9436-a135f130fd19@hiddify.com",
+                    "password": "7b308456-755c-46db-9436-a135f130fd19"
+                }
+            ]
+        },
+        {
+            "auth_timeout": "3s",
+            "congestion_control": "cubic",
+            "domain_strategy": "prefer_ipv4",
+            "heartbeat": "10s",
+            "listen": "::",
+            "listen_port": 55851,
+            "sniff": true,
+            "sniff_override_destination": true,
+            "tag": "tuic_in_55851",
+            "tcp_fast_open": true,
+            "tls": {
+                "alpn": [
+                    "h3"
+                ],
+                "certificate_path": "/opt/ssl/sert.crt",
+                "enabled": true,
+                "key_path": "/opt/ssl/sert.crt.key",
+                "max_version": "1.3",
+                "min_version": "1.2",
+                "server_name": ""
+            },
+            "type": "tuic",
+            "users": [
+                {
+                    "name": "49d0abc0-15ec-4533-983e-f2cf0320ca23@hiddify.com",
+                    "password": "yfUmu78NXGzPd7cp+YXZZabAEjms5p1OpbImiwFel/8=",
+                    "uuid": "49d0abc0-15ec-4533-983e-f2cf0320ca23"
+                },
+                {
+                    "name": "cfb4973d-8b61-48d0-b0d9-95fb4d583654@hiddify.com",
+                    "password": "hlJfVq5wDR2oEi0AaGX/Ofd5C3rnFVR6LOWfbGAL/uA=",
+                    "uuid": "cfb4973d-8b61-48d0-b0d9-95fb4d583654"
+                },
+                {
+                    "name": "fe47abda-99f1-4eb2-9e35-baf9e061d59e@hiddify.com",
+                    "password": "RMoVCl0HnjGAmsm8jNY7Cw/kON7y+zbYTo+eHu4qdHA=",
+                    "uuid": "fe47abda-99f1-4eb2-9e35-baf9e061d59e"
+                },
+                {
+                    "name": "0a30555e-c8b2-456a-a6a3-e3a983885946@hiddify.com",
+                    "password": "NpkHiRPxGtOib302Ew8hr0xptM8Tm4kOqhj+8/8tyP0=",
+                    "uuid": "0a30555e-c8b2-456a-a6a3-e3a983885946"
+                },
+                {
+                    "name": "00b3ab54-be04-4422-9ddd-ce63f154c635@hiddify.com",
+                    "password": "if1EXGDxrTx5YWf+ytt/82epAbOll1wPFaY5dgJm+lQ=",
+                    "uuid": "00b3ab54-be04-4422-9ddd-ce63f154c635"
+                },
+                {
+                    "name": "9ce279f3-8953-46b8-a9d5-0d60084dcd19@hiddify.com",
+                    "password": "xQt6wreAe7N61yXmoYcVuxa245sywfcDjReqnpXYn98=",
+                    "uuid": "9ce279f3-8953-46b8-a9d5-0d60084dcd19"
+                },
+                {
+                    "name": "94701540-8c79-4d50-9258-600c0fa3e358@hiddify.com",
+                    "password": "fZj6JkEM9kMBCLJahkY4OF9m1TTNatZEFmHwIDM2eOo=",
+                    "uuid": "94701540-8c79-4d50-9258-600c0fa3e358"
+                },
+                {
+                    "name": "7b308456-755c-46db-9436-a135f130fd19@hiddify.com",
+                    "password": "QFsfhrB5nF0oNrxSag+yqC1X2mLko8IiAbdXfsMiPCk=",
+                    "uuid": "7b308456-755c-46db-9436-a135f130fd19"
+                }
+            ],
+            "zero_rtt_handshake": true
+        },
+        {
+            "domain_strategy": "prefer_ipv4",
+            "listen": "127.0.0.1",
+            "listen_port": 5020,
+            "sniff": true,
+            "sniff_override_destination": true,
+            "tag": "v10-trojan-ws",
+            "tcp_fast_open": true,
+            "transport": {
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "path": "/assetsrg1tbT2V2rR2HqiFLbDZzz",
+                "type": "ws"
+            },
+            "type": "trojan",
+            "users": [
+                {
+                    "name": "49d0abc0-15ec-4533-983e-f2cf0320ca23@hiddify.com",
+                    "password": "49d0abc0-15ec-4533-983e-f2cf0320ca23"
+                },
+                {
+                    "name": "cfb4973d-8b61-48d0-b0d9-95fb4d583654@hiddify.com",
+                    "password": "cfb4973d-8b61-48d0-b0d9-95fb4d583654"
+                },
+                {
+                    "name": "fe47abda-99f1-4eb2-9e35-baf9e061d59e@hiddify.com",
+                    "password": "fe47abda-99f1-4eb2-9e35-baf9e061d59e"
+                },
+                {
+                    "name": "0a30555e-c8b2-456a-a6a3-e3a983885946@hiddify.com",
+                    "password": "0a30555e-c8b2-456a-a6a3-e3a983885946"
+                },
+                {
+                    "name": "00b3ab54-be04-4422-9ddd-ce63f154c635@hiddify.com",
+                    "password": "00b3ab54-be04-4422-9ddd-ce63f154c635"
+                },
+                {
+                    "name": "9ce279f3-8953-46b8-a9d5-0d60084dcd19@hiddify.com",
+                    "password": "9ce279f3-8953-46b8-a9d5-0d60084dcd19"
+                },
+                {
+                    "name": "94701540-8c79-4d50-9258-600c0fa3e358@hiddify.com",
+                    "password": "94701540-8c79-4d50-9258-600c0fa3e358"
+                },
+                {
+                    "name": "7b308456-755c-46db-9436-a135f130fd19@hiddify.com",
+                    "password": "7b308456-755c-46db-9436-a135f130fd19"
+                }
+            ]
+        },
+        {
+            "domain_strategy": "prefer_ipv4",
+            "listen": "127.0.0.1",
+            "listen_port": 5000,
+            "sniff": true,
+            "sniff_override_destination": true,
+            "tag": "v10-vless-ws",
+            "tcp_fast_open": true,
+            "transport": {
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "path": "/assets825jqfJP12yVPaULZ76SEi",
+                "type": "ws"
+            },
+            "type": "vless",
+            "users": [
+                {},
+                {
+                    "flow": "",
+                    "name": "49d0abc0-15ec-4533-983e-f2cf0320ca23@hiddify.com",
+                    "uuid": "49d0abc0-15ec-4533-983e-f2cf0320ca23"
+                },
+                {
+                    "flow": "",
+                    "name": "cfb4973d-8b61-48d0-b0d9-95fb4d583654@hiddify.com",
+                    "uuid": "cfb4973d-8b61-48d0-b0d9-95fb4d583654"
+                },
+                {
+                    "flow": "",
+                    "name": "fe47abda-99f1-4eb2-9e35-baf9e061d59e@hiddify.com",
+                    "uuid": "fe47abda-99f1-4eb2-9e35-baf9e061d59e"
+                },
+                {
+                    "flow": "",
+                    "name": "0a30555e-c8b2-456a-a6a3-e3a983885946@hiddify.com",
+                    "uuid": "0a30555e-c8b2-456a-a6a3-e3a983885946"
+                },
+                {
+                    "flow": "",
+                    "name": "00b3ab54-be04-4422-9ddd-ce63f154c635@hiddify.com",
+                    "uuid": "00b3ab54-be04-4422-9ddd-ce63f154c635"
+                },
+                {
+                    "flow": "",
+                    "name": "9ce279f3-8953-46b8-a9d5-0d60084dcd19@hiddify.com",
+                    "uuid": "9ce279f3-8953-46b8-a9d5-0d60084dcd19"
+                },
+                {
+                    "flow": "",
+                    "name": "94701540-8c79-4d50-9258-600c0fa3e358@hiddify.com",
+                    "uuid": "94701540-8c79-4d50-9258-600c0fa3e358"
+                },
+                {
+                    "flow": "",
+                    "name": "7b308456-755c-46db-9436-a135f130fd19@hiddify.com",
+                    "uuid": "7b308456-755c-46db-9436-a135f130fd19"
+                }
+            ]
+        }
+    ],
+    "outbounds": [
+        {
+            "tag": "direct",
+            "type": "direct"
+        }
+    ]
+}

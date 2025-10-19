@@ -1,0 +1,270 @@
+[36mINFO[0m[0000] network: updated default interface eth0, index 2
+[36mINFO[0m[0000] inbound/trojan[v10-trojan-grpc]: tcp server started at 127.0.0.1:5021
+[36mINFO[0m[0000] inbound/vless[v10-vless-grpc]: tcp server started at 127.0.0.1:5001
+[36mINFO[0m[0000] inbound/vmess[v10-vmess-grpc]: tcp server started at 127.0.0.1:5011
+[36mINFO[0m[0000] inbound/vless[v10-vless-httpupgrade]: tcp server started at 127.0.0.1:5003
+[36mINFO[0m[0000] inbound/vless[v10-vless-tcp]: tcp server started at 127.0.0.1:5002
+[36mINFO[0m[0000] inbound/vmess[v10-vmess-ws]: tcp server started at 127.0.0.1:5010
+[36mINFO[0m[0000] inbound/vmess[v10-vmess-tcp]: tcp server started at 127.0.0.1:5012
+[36mINFO[0m[0000] inbound/vmess[v10-vmess-httpupgrade]: tcp server started at 127.0.0.1:5013
+[36mINFO[0m[0000] inbound/hysteria2[hysteria_in_50062]: udp server started at [::]:50062
+[36mINFO[0m[0000] inbound/vless[realityin_43124]: tcp server started at 0.0.0.0:43124
+[36mINFO[0m[0000] inbound/shadowsocks[ss-new]: tcp server started at [::]:44405
+[36mINFO[0m[0000] inbound/shadowsocks[ss-new]: udp server started at [::]:44405
+[36mINFO[0m[0000] inbound/shadowtls[shadowtls]: tcp server started at 127.0.0.1:1030
+[36mINFO[0m[0000] inbound/trojan[v10-trojan-tcp]: tcp server started at 127.0.0.1:5022
+[36mINFO[0m[0000] inbound/tuic[tuic_in_55851]: udp server started at [::]:55851
+[36mINFO[0m[0000] inbound/trojan[v10-trojan-ws]: tcp server started at 127.0.0.1:5020
+[36mINFO[0m[0000] inbound/vless[v10-vless-ws]: tcp server started at 127.0.0.1:5000
+[36mINFO[0m[0000] sing-box started (0.677s)
+[37mDEBUG[0m[0120] inbound/tuic[tuic_in_55851]: listener closed: context canceled
+[37mDEBUG[0m[0120] inbound/hysteria2[hysteria_in_50062]: listener closed: context canceled
+[36mINFO[0m[0000] network: updated default interface eth0, index 2
+[36mINFO[0m[0000] inbound/trojan[v10-trojan-grpc]: tcp server started at 127.0.0.1:5021
+[36mINFO[0m[0000] inbound/vless[v10-vless-grpc]: tcp server started at 127.0.0.1:5001
+[36mINFO[0m[0000] inbound/vmess[v10-vmess-grpc]: tcp server started at 127.0.0.1:5011
+[36mINFO[0m[0000] inbound/vless[v10-vless-httpupgrade]: tcp server started at 127.0.0.1:5003
+[36mINFO[0m[0000] inbound/vless[v10-vless-tcp]: tcp server started at 127.0.0.1:5002
+[36mINFO[0m[0000] inbound/vmess[v10-vmess-ws]: tcp server started at 127.0.0.1:5010
+[36mINFO[0m[0000] inbound/vmess[v10-vmess-tcp]: tcp server started at 127.0.0.1:5012
+[36mINFO[0m[0000] inbound/vmess[v10-vmess-httpupgrade]: tcp server started at 127.0.0.1:5013
+[36mINFO[0m[0000] inbound/hysteria2[hysteria_in_50062]: udp server started at [::]:50062
+[36mINFO[0m[0000] inbound/vless[realityin_43124]: tcp server started at 0.0.0.0:43124
+[36mINFO[0m[0000] inbound/shadowsocks[ss-new]: tcp server started at [::]:44405
+[36mINFO[0m[0000] inbound/shadowsocks[ss-new]: udp server started at [::]:44405
+[36mINFO[0m[0000] inbound/shadowtls[shadowtls]: tcp server started at 127.0.0.1:1030
+[36mINFO[0m[0000] inbound/trojan[v10-trojan-tcp]: tcp server started at 127.0.0.1:5022
+[36mINFO[0m[0000] inbound/tuic[tuic_in_55851]: udp server started at [::]:55851
+[36mINFO[0m[0000] inbound/trojan[v10-trojan-ws]: tcp server started at 127.0.0.1:5020
+[36mINFO[0m[0000] inbound/vless[v10-vless-ws]: tcp server started at 127.0.0.1:5000
+[36mINFO[0m[0000] sing-box started (0.11s)
+[37mDEBUG[0m[0325] inbound/tuic[tuic_in_55851]: listener closed: context canceled
+[37mDEBUG[0m[0325] inbound/hysteria2[hysteria_in_50062]: listener closed: context canceled
+[36mINFO[0m[0000] network: updated default interface eth0, index 2
+[36mINFO[0m[0000] inbound/trojan[v10-trojan-grpc]: tcp server started at 127.0.0.1:5021
+[36mINFO[0m[0000] inbound/vless[v10-vless-grpc]: tcp server started at 127.0.0.1:5001
+[36mINFO[0m[0000] inbound/vmess[v10-vmess-grpc]: tcp server started at 127.0.0.1:5011
+[36mINFO[0m[0000] inbound/vless[v10-vless-httpupgrade]: tcp server started at 127.0.0.1:5003
+[36mINFO[0m[0000] inbound/vless[v10-vless-tcp]: tcp server started at 127.0.0.1:5002
+[36mINFO[0m[0000] inbound/vmess[v10-vmess-ws]: tcp server started at 127.0.0.1:5010
+[36mINFO[0m[0000] inbound/vmess[v10-vmess-tcp]: tcp server started at 127.0.0.1:5012
+[36mINFO[0m[0000] inbound/vmess[v10-vmess-httpupgrade]: tcp server started at 127.0.0.1:5013
+[36mINFO[0m[0000] inbound/hysteria2[hysteria_in_50062]: udp server started at [::]:50062
+[36mINFO[0m[0000] inbound/vless[realityin_43124]: tcp server started at 0.0.0.0:43124
+[36mINFO[0m[0000] inbound/shadowsocks[ss-new]: tcp server started at [::]:44405
+[36mINFO[0m[0000] inbound/shadowsocks[ss-new]: udp server started at [::]:44405
+[36mINFO[0m[0000] inbound/shadowtls[shadowtls]: tcp server started at 127.0.0.1:1030
+[36mINFO[0m[0000] inbound/trojan[v10-trojan-tcp]: tcp server started at 127.0.0.1:5022
+[36mINFO[0m[0000] inbound/tuic[tuic_in_55851]: udp server started at [::]:55851
+[36mINFO[0m[0000] inbound/trojan[v10-trojan-ws]: tcp server started at 127.0.0.1:5020
+[36mINFO[0m[0000] inbound/vless[v10-vless-ws]: tcp server started at 127.0.0.1:5000
+[36mINFO[0m[0000] sing-box started (0.11s)
+[36mINFO[0m[0000] network: updated default interface eth0, index 2
+[36mINFO[0m[0000] inbound/trojan[v10-trojan-grpc]: tcp server started at 127.0.0.1:5021
+[36mINFO[0m[0000] inbound/vless[v10-vless-grpc]: tcp server started at 127.0.0.1:5001
+[36mINFO[0m[0000] inbound/vmess[v10-vmess-grpc]: tcp server started at 127.0.0.1:5011
+[36mINFO[0m[0000] inbound/vless[v10-vless-httpupgrade]: tcp server started at 127.0.0.1:5003
+[36mINFO[0m[0000] inbound/vless[v10-vless-tcp]: tcp server started at 127.0.0.1:5002
+[36mINFO[0m[0000] inbound/vmess[v10-vmess-ws]: tcp server started at 127.0.0.1:5010
+[36mINFO[0m[0000] inbound/vmess[v10-vmess-tcp]: tcp server started at 127.0.0.1:5012
+[36mINFO[0m[0000] inbound/vmess[v10-vmess-httpupgrade]: tcp server started at 127.0.0.1:5013
+[36mINFO[0m[0000] inbound/hysteria2[hysteria_in_50062]: udp server started at [::]:50062
+[36mINFO[0m[0000] inbound/vless[realityin_43124]: tcp server started at 0.0.0.0:43124
+[36mINFO[0m[0000] inbound/shadowsocks[ss-new]: tcp server started at [::]:44405
+[36mINFO[0m[0000] inbound/shadowsocks[ss-new]: udp server started at [::]:44405
+[36mINFO[0m[0000] inbound/shadowtls[shadowtls]: tcp server started at 127.0.0.1:1030
+[36mINFO[0m[0000] inbound/trojan[v10-trojan-tcp]: tcp server started at 127.0.0.1:5022
+[36mINFO[0m[0000] inbound/tuic[tuic_in_55851]: udp server started at [::]:55851
+[36mINFO[0m[0000] inbound/trojan[v10-trojan-ws]: tcp server started at 127.0.0.1:5020
+[36mINFO[0m[0000] inbound/vless[v10-vless-ws]: tcp server started at 127.0.0.1:5000
+[36mINFO[0m[0000] sing-box started (0.11s)
+[36mINFO[0m[0000] network: updated default interface eth0, index 2
+[36mINFO[0m[0000] inbound/trojan[v10-trojan-grpc]: tcp server started at 127.0.0.1:5021
+[36mINFO[0m[0000] inbound/vless[v10-vless-grpc]: tcp server started at 127.0.0.1:5001
+[36mINFO[0m[0000] inbound/vmess[v10-vmess-grpc]: tcp server started at 127.0.0.1:5011
+[36mINFO[0m[0000] inbound/vless[v10-vless-httpupgrade]: tcp server started at 127.0.0.1:5003
+[36mINFO[0m[0000] inbound/vless[v10-vless-tcp]: tcp server started at 127.0.0.1:5002
+[36mINFO[0m[0000] inbound/vmess[v10-vmess-ws]: tcp server started at 127.0.0.1:5010
+[36mINFO[0m[0000] inbound/vmess[v10-vmess-tcp]: tcp server started at 127.0.0.1:5012
+[36mINFO[0m[0000] inbound/vmess[v10-vmess-httpupgrade]: tcp server started at 127.0.0.1:5013
+[36mINFO[0m[0000] inbound/hysteria2[hysteria_in_50062]: udp server started at [::]:50062
+[36mINFO[0m[0000] inbound/vless[realityin_43124]: tcp server started at 0.0.0.0:43124
+[36mINFO[0m[0000] inbound/shadowsocks[ss-new]: tcp server started at [::]:44405
+[36mINFO[0m[0000] inbound/shadowsocks[ss-new]: udp server started at [::]:44405
+[36mINFO[0m[0000] inbound/shadowtls[shadowtls]: tcp server started at 127.0.0.1:1030
+[36mINFO[0m[0000] inbound/trojan[v10-trojan-tcp]: tcp server started at 127.0.0.1:5022
+[36mINFO[0m[0000] inbound/tuic[tuic_in_55851]: udp server started at [::]:55851
+[36mINFO[0m[0000] inbound/trojan[v10-trojan-ws]: tcp server started at 127.0.0.1:5020
+[36mINFO[0m[0000] inbound/vless[v10-vless-ws]: tcp server started at 127.0.0.1:5000
+[36mINFO[0m[0000] sing-box started (0.11s)
+[36mINFO[0m[0000] network: updated default interface eth0, index 2
+[36mINFO[0m[0000] inbound/trojan[v10-trojan-grpc]: tcp server started at 127.0.0.1:5021
+[36mINFO[0m[0000] inbound/vless[v10-vless-grpc]: tcp server started at 127.0.0.1:5001
+[36mINFO[0m[0000] inbound/vmess[v10-vmess-grpc]: tcp server started at 127.0.0.1:5011
+[36mINFO[0m[0000] inbound/vless[v10-vless-httpupgrade]: tcp server started at 127.0.0.1:5003
+[36mINFO[0m[0000] inbound/vless[v10-vless-tcp]: tcp server started at 127.0.0.1:5002
+[36mINFO[0m[0000] inbound/vmess[v10-vmess-ws]: tcp server started at 127.0.0.1:5010
+[36mINFO[0m[0000] inbound/vmess[v10-vmess-tcp]: tcp server started at 127.0.0.1:5012
+[36mINFO[0m[0000] inbound/vmess[v10-vmess-httpupgrade]: tcp server started at 127.0.0.1:5013
+[36mINFO[0m[0000] inbound/hysteria2[hysteria_in_50062]: udp server started at [::]:50062
+[36mINFO[0m[0000] inbound/vless[realityin_43124]: tcp server started at 0.0.0.0:43124
+[36mINFO[0m[0000] inbound/shadowsocks[ss-new]: tcp server started at [::]:44405
+[36mINFO[0m[0000] inbound/shadowsocks[ss-new]: udp server started at [::]:44405
+[36mINFO[0m[0000] inbound/shadowtls[shadowtls]: tcp server started at 127.0.0.1:1030
+[36mINFO[0m[0000] inbound/trojan[v10-trojan-tcp]: tcp server started at 127.0.0.1:5022
+[36mINFO[0m[0000] inbound/tuic[tuic_in_55851]: udp server started at [::]:55851
+[36mINFO[0m[0000] inbound/trojan[v10-trojan-ws]: tcp server started at 127.0.0.1:5020
+[36mINFO[0m[0000] inbound/vless[v10-vless-ws]: tcp server started at 127.0.0.1:5000
+[36mINFO[0m[0000] sing-box started (0.11s)
+[36mINFO[0m[0000] network: updated default interface eth0, index 2
+[36mINFO[0m[0000] inbound/trojan[v10-trojan-grpc]: tcp server started at 127.0.0.1:5021
+[36mINFO[0m[0000] inbound/vless[v10-vless-grpc]: tcp server started at 127.0.0.1:5001
+[36mINFO[0m[0000] inbound/vmess[v10-vmess-grpc]: tcp server started at 127.0.0.1:5011
+[36mINFO[0m[0000] inbound/vless[v10-vless-httpupgrade]: tcp server started at 127.0.0.1:5003
+[36mINFO[0m[0000] inbound/vless[v10-vless-tcp]: tcp server started at 127.0.0.1:5002
+[36mINFO[0m[0000] inbound/vmess[v10-vmess-ws]: tcp server started at 127.0.0.1:5010
+[36mINFO[0m[0000] inbound/vmess[v10-vmess-tcp]: tcp server started at 127.0.0.1:5012
+[36mINFO[0m[0000] inbound/vmess[v10-vmess-httpupgrade]: tcp server started at 127.0.0.1:5013
+[36mINFO[0m[0000] inbound/hysteria2[hysteria_in_50062]: udp server started at [::]:50062
+[36mINFO[0m[0000] inbound/vless[realityin_43124]: tcp server started at 0.0.0.0:43124
+[36mINFO[0m[0000] inbound/shadowsocks[ss-new]: tcp server started at [::]:44405
+[36mINFO[0m[0000] inbound/shadowsocks[ss-new]: udp server started at [::]:44405
+[36mINFO[0m[0000] inbound/shadowtls[shadowtls]: tcp server started at 127.0.0.1:1030
+[36mINFO[0m[0000] inbound/trojan[v10-trojan-tcp]: tcp server started at 127.0.0.1:5022
+[36mINFO[0m[0000] inbound/tuic[tuic_in_55851]: udp server started at [::]:55851
+[36mINFO[0m[0000] inbound/trojan[v10-trojan-ws]: tcp server started at 127.0.0.1:5020
+[36mINFO[0m[0000] inbound/vless[v10-vless-ws]: tcp server started at 127.0.0.1:5000
+[36mINFO[0m[0000] sing-box started (0.11s)
+[36mINFO[0m[0000] network: updated default interface eth0, index 2
+[36mINFO[0m[0000] inbound/trojan[v10-trojan-grpc]: tcp server started at 127.0.0.1:5021
+[36mINFO[0m[0000] inbound/vless[v10-vless-grpc]: tcp server started at 127.0.0.1:5001
+[36mINFO[0m[0000] inbound/vmess[v10-vmess-grpc]: tcp server started at 127.0.0.1:5011
+[36mINFO[0m[0000] inbound/vless[v10-vless-httpupgrade]: tcp server started at 127.0.0.1:5003
+[36mINFO[0m[0000] inbound/vless[v10-vless-tcp]: tcp server started at 127.0.0.1:5002
+[36mINFO[0m[0000] inbound/vmess[v10-vmess-ws]: tcp server started at 127.0.0.1:5010
+[36mINFO[0m[0000] inbound/vmess[v10-vmess-tcp]: tcp server started at 127.0.0.1:5012
+[36mINFO[0m[0000] inbound/vmess[v10-vmess-httpupgrade]: tcp server started at 127.0.0.1:5013
+[36mINFO[0m[0000] inbound/hysteria2[hysteria_in_50062]: udp server started at [::]:50062
+[36mINFO[0m[0000] inbound/vless[realityin_43124]: tcp server started at 0.0.0.0:43124
+[36mINFO[0m[0000] inbound/shadowsocks[ss-new]: tcp server started at [::]:44405
+[36mINFO[0m[0000] inbound/shadowsocks[ss-new]: udp server started at [::]:44405
+[36mINFO[0m[0000] inbound/shadowtls[shadowtls]: tcp server started at 127.0.0.1:1030
+[36mINFO[0m[0000] inbound/trojan[v10-trojan-tcp]: tcp server started at 127.0.0.1:5022
+[36mINFO[0m[0000] inbound/tuic[tuic_in_55851]: udp server started at [::]:55851
+[36mINFO[0m[0000] inbound/trojan[v10-trojan-ws]: tcp server started at 127.0.0.1:5020
+[36mINFO[0m[0000] inbound/vless[v10-vless-ws]: tcp server started at 127.0.0.1:5000
+[36mINFO[0m[0000] sing-box started (0.22s)
+[36mINFO[0m[0000] network: updated default interface eth0, index 2
+[36mINFO[0m[0000] inbound/trojan[v10-trojan-grpc]: tcp server started at 127.0.0.1:5021
+[36mINFO[0m[0000] inbound/vless[v10-vless-grpc]: tcp server started at 127.0.0.1:5001
+[36mINFO[0m[0000] inbound/vmess[v10-vmess-grpc]: tcp server started at 127.0.0.1:5011
+[36mINFO[0m[0000] inbound/vless[v10-vless-httpupgrade]: tcp server started at 127.0.0.1:5003
+[36mINFO[0m[0000] inbound/vless[v10-vless-tcp]: tcp server started at 127.0.0.1:5002
+[36mINFO[0m[0000] inbound/vmess[v10-vmess-ws]: tcp server started at 127.0.0.1:5010
+[36mINFO[0m[0000] inbound/vmess[v10-vmess-tcp]: tcp server started at 127.0.0.1:5012
+[36mINFO[0m[0000] inbound/vmess[v10-vmess-httpupgrade]: tcp server started at 127.0.0.1:5013
+[36mINFO[0m[0000] inbound/hysteria2[hysteria_in_50062]: udp server started at [::]:50062
+[36mINFO[0m[0000] inbound/vless[realityin_43124]: tcp server started at 0.0.0.0:43124
+[36mINFO[0m[0000] inbound/shadowsocks[ss-new]: tcp server started at [::]:44405
+[36mINFO[0m[0000] inbound/shadowsocks[ss-new]: udp server started at [::]:44405
+[36mINFO[0m[0000] inbound/shadowtls[shadowtls]: tcp server started at 127.0.0.1:1030
+[36mINFO[0m[0000] inbound/trojan[v10-trojan-tcp]: tcp server started at 127.0.0.1:5022
+[36mINFO[0m[0000] inbound/tuic[tuic_in_55851]: udp server started at [::]:55851
+[36mINFO[0m[0000] inbound/trojan[v10-trojan-ws]: tcp server started at 127.0.0.1:5020
+[36mINFO[0m[0000] inbound/vless[v10-vless-ws]: tcp server started at 127.0.0.1:5000
+[36mINFO[0m[0000] sing-box started (0.22s)
+[36mINFO[0m[0000] network: updated default interface eth0, index 2
+[36mINFO[0m[0000] inbound/trojan[v10-trojan-grpc]: tcp server started at 127.0.0.1:5021
+[36mINFO[0m[0000] inbound/vless[v10-vless-grpc]: tcp server started at 127.0.0.1:5001
+[36mINFO[0m[0000] inbound/vmess[v10-vmess-grpc]: tcp server started at 127.0.0.1:5011
+[36mINFO[0m[0000] inbound/vless[v10-vless-httpupgrade]: tcp server started at 127.0.0.1:5003
+[36mINFO[0m[0000] inbound/vless[v10-vless-tcp]: tcp server started at 127.0.0.1:5002
+[36mINFO[0m[0000] inbound/vmess[v10-vmess-ws]: tcp server started at 127.0.0.1:5010
+[36mINFO[0m[0000] inbound/vmess[v10-vmess-tcp]: tcp server started at 127.0.0.1:5012
+[36mINFO[0m[0000] inbound/vmess[v10-vmess-httpupgrade]: tcp server started at 127.0.0.1:5013
+[36mINFO[0m[0000] inbound/hysteria2[hysteria_in_50062]: udp server started at [::]:50062
+[36mINFO[0m[0000] inbound/vless[realityin_43124]: tcp server started at 0.0.0.0:43124
+[36mINFO[0m[0000] inbound/shadowsocks[ss-new]: tcp server started at [::]:44405
+[36mINFO[0m[0000] inbound/shadowsocks[ss-new]: udp server started at [::]:44405
+[36mINFO[0m[0000] inbound/shadowtls[shadowtls]: tcp server started at 127.0.0.1:1030
+[36mINFO[0m[0000] inbound/trojan[v10-trojan-tcp]: tcp server started at 127.0.0.1:5022
+[36mINFO[0m[0000] inbound/tuic[tuic_in_55851]: udp server started at [::]:55851
+[36mINFO[0m[0000] inbound/trojan[v10-trojan-ws]: tcp server started at 127.0.0.1:5020
+[36mINFO[0m[0000] inbound/vless[v10-vless-ws]: tcp server started at 127.0.0.1:5000
+[36mINFO[0m[0000] sing-box started (0.22s)
+[36mINFO[0m[0000] network: updated default interface eth0, index 2
+[36mINFO[0m[0000] inbound/trojan[v10-trojan-grpc]: tcp server started at 127.0.0.1:5021
+[36mINFO[0m[0000] inbound/vless[v10-vless-grpc]: tcp server started at 127.0.0.1:5001
+[36mINFO[0m[0000] inbound/vmess[v10-vmess-grpc]: tcp server started at 127.0.0.1:5011
+[36mINFO[0m[0000] inbound/vless[v10-vless-httpupgrade]: tcp server started at 127.0.0.1:5003
+[36mINFO[0m[0000] inbound/vless[v10-vless-tcp]: tcp server started at 127.0.0.1:5002
+[36mINFO[0m[0000] inbound/vmess[v10-vmess-ws]: tcp server started at 127.0.0.1:5010
+[36mINFO[0m[0000] inbound/vmess[v10-vmess-tcp]: tcp server started at 127.0.0.1:5012
+[36mINFO[0m[0000] inbound/vmess[v10-vmess-httpupgrade]: tcp server started at 127.0.0.1:5013
+[36mINFO[0m[0000] inbound/hysteria2[hysteria_in_50062]: udp server started at [::]:50062
+[36mINFO[0m[0000] inbound/vless[realityin_43124]: tcp server started at 0.0.0.0:43124
+[36mINFO[0m[0000] inbound/shadowsocks[ss-new]: tcp server started at [::]:44405
+[36mINFO[0m[0000] inbound/shadowsocks[ss-new]: udp server started at [::]:44405
+[36mINFO[0m[0000] inbound/shadowtls[shadowtls]: tcp server started at 127.0.0.1:1030
+[36mINFO[0m[0000] inbound/trojan[v10-trojan-tcp]: tcp server started at 127.0.0.1:5022
+[36mINFO[0m[0000] inbound/tuic[tuic_in_55851]: udp server started at [::]:55851
+[36mINFO[0m[0000] inbound/trojan[v10-trojan-ws]: tcp server started at 127.0.0.1:5020
+[36mINFO[0m[0000] inbound/vless[v10-vless-ws]: tcp server started at 127.0.0.1:5000
+[36mINFO[0m[0000] sing-box started (0.33s)
+[36mINFO[0m[0000] network: updated default interface eth0, index 2
+[36mINFO[0m[0000] inbound/trojan[v10-trojan-grpc]: tcp server started at 127.0.0.1:5021
+[36mINFO[0m[0000] inbound/vless[v10-vless-grpc]: tcp server started at 127.0.0.1:5001
+[36mINFO[0m[0000] inbound/vmess[v10-vmess-grpc]: tcp server started at 127.0.0.1:5011
+[36mINFO[0m[0000] inbound/vless[v10-vless-httpupgrade]: tcp server started at 127.0.0.1:5003
+[36mINFO[0m[0000] inbound/vless[v10-vless-tcp]: tcp server started at 127.0.0.1:5002
+[36mINFO[0m[0000] inbound/vmess[v10-vmess-ws]: tcp server started at 127.0.0.1:5010
+[36mINFO[0m[0000] inbound/vmess[v10-vmess-tcp]: tcp server started at 127.0.0.1:5012
+[36mINFO[0m[0000] inbound/vmess[v10-vmess-httpupgrade]: tcp server started at 127.0.0.1:5013
+[36mINFO[0m[0000] inbound/hysteria2[hysteria_in_50062]: udp server started at [::]:50062
+[36mINFO[0m[0000] inbound/vless[realityin_43124]: tcp server started at 0.0.0.0:43124
+[36mINFO[0m[0000] inbound/shadowsocks[ss-new]: tcp server started at [::]:44405
+[36mINFO[0m[0000] inbound/shadowsocks[ss-new]: udp server started at [::]:44405
+[36mINFO[0m[0000] inbound/shadowtls[shadowtls]: tcp server started at 127.0.0.1:1030
+[36mINFO[0m[0000] inbound/trojan[v10-trojan-tcp]: tcp server started at 127.0.0.1:5022
+[36mINFO[0m[0000] inbound/tuic[tuic_in_55851]: udp server started at [::]:55851
+[36mINFO[0m[0000] inbound/trojan[v10-trojan-ws]: tcp server started at 127.0.0.1:5020
+[36mINFO[0m[0000] inbound/vless[v10-vless-ws]: tcp server started at 127.0.0.1:5000
+[36mINFO[0m[0000] sing-box started (0.22s)
+[36mINFO[0m[0000] network: updated default interface eth0, index 2
+[36mINFO[0m[0000] inbound/trojan[v10-trojan-grpc]: tcp server started at 127.0.0.1:5021
+[36mINFO[0m[0000] inbound/vless[v10-vless-grpc]: tcp server started at 127.0.0.1:5001
+[36mINFO[0m[0000] inbound/vmess[v10-vmess-grpc]: tcp server started at 127.0.0.1:5011
+[36mINFO[0m[0000] inbound/vless[v10-vless-httpupgrade]: tcp server started at 127.0.0.1:5003
+[36mINFO[0m[0000] inbound/vless[v10-vless-tcp]: tcp server started at 127.0.0.1:5002
+[36mINFO[0m[0000] inbound/vmess[v10-vmess-ws]: tcp server started at 127.0.0.1:5010
+[36mINFO[0m[0000] inbound/vmess[v10-vmess-tcp]: tcp server started at 127.0.0.1:5012
+[36mINFO[0m[0000] inbound/vmess[v10-vmess-httpupgrade]: tcp server started at 127.0.0.1:5013
+[36mINFO[0m[0000] inbound/hysteria2[hysteria_in_50062]: udp server started at [::]:50062
+[36mINFO[0m[0000] inbound/vless[realityin_43124]: tcp server started at 0.0.0.0:43124
+[36mINFO[0m[0000] inbound/shadowsocks[ss-new]: tcp server started at [::]:44405
+[36mINFO[0m[0000] inbound/shadowsocks[ss-new]: udp server started at [::]:44405
+[36mINFO[0m[0000] inbound/shadowtls[shadowtls]: tcp server started at 127.0.0.1:1030
+[36mINFO[0m[0000] inbound/trojan[v10-trojan-tcp]: tcp server started at 127.0.0.1:5022
+[36mINFO[0m[0000] inbound/tuic[tuic_in_55851]: udp server started at [::]:55851
+[36mINFO[0m[0000] inbound/trojan[v10-trojan-ws]: tcp server started at 127.0.0.1:5020
+[36mINFO[0m[0000] inbound/vless[v10-vless-ws]: tcp server started at 127.0.0.1:5000
+[36mINFO[0m[0000] sing-box started (0.22s)
+[36mINFO[0m[0000] network: updated default interface eth0, index 2
+[36mINFO[0m[0000] inbound/trojan[v10-trojan-grpc]: tcp server started at 127.0.0.1:5021
+[36mINFO[0m[0000] inbound/vless[v10-vless-grpc]: tcp server started at 127.0.0.1:5001
+[36mINFO[0m[0000] inbound/vmess[v10-vmess-grpc]: tcp server started at 127.0.0.1:5011
+[36mINFO[0m[0000] inbound/vless[v10-vless-httpupgrade]: tcp server started at 127.0.0.1:5003
+[36mINFO[0m[0000] inbound/vless[v10-vless-tcp]: tcp server started at 127.0.0.1:5002
+[36mINFO[0m[0000] inbound/vmess[v10-vmess-ws]: tcp server started at 127.0.0.1:5010
+[36mINFO[0m[0000] inbound/vmess[v10-vmess-tcp]: tcp server started at 127.0.0.1:5012
+[36mINFO[0m[0000] inbound/vmess[v10-vmess-httpupgrade]: tcp server started at 127.0.0.1:5013
+[36mINFO[0m[0000] inbound/hysteria2[hysteria_in_50062]: udp server started at [::]:50062
+[36mINFO[0m[0000] inbound/vless[realityin_43124]: tcp server started at 0.0.0.0:43124
+[36mINFO[0m[0000] inbound/shadowsocks[ss-new]: tcp server started at [::]:44405
+[36mINFO[0m[0000] inbound/shadowsocks[ss-new]: udp server started at [::]:44405
+[36mINFO[0m[0000] inbound/shadowtls[shadowtls]: tcp server started at 127.0.0.1:1030
+[36mINFO[0m[0000] inbound/trojan[v10-trojan-tcp]: tcp server started at 127.0.0.1:5022
+[36mINFO[0m[0000] inbound/tuic[tuic_in_55851]: udp server started at [::]:55851
+[36mINFO[0m[0000] inbound/trojan[v10-trojan-ws]: tcp server started at 127.0.0.1:5020
+[36mINFO[0m[0000] inbound/vless[v10-vless-ws]: tcp server started at 127.0.0.1:5000
+[36mINFO[0m[0000] sing-box started (0.33s)

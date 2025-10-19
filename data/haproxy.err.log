@@ -1,0 +1,129 @@
+[NOTICE]   (7) : haproxy version is 2.8.5-1ubuntu3.3
+[NOTICE]   (7) : path to executable is /usr/sbin/haproxy
+[ALERT]    (7) : config : Cannot open configuration file/directory /etc/haproxy/haproxy.cfg : No such file or directory
+[NOTICE]   (36) : haproxy version is 2.8.5-1ubuntu3.3
+[NOTICE]   (36) : path to executable is /usr/sbin/haproxy
+[ALERT]    (36) : config : Cannot open configuration file/directory /etc/haproxy/haproxy.cfg : No such file or directory
+[NOTICE]   (50) : haproxy version is 2.8.5-1ubuntu3.3
+[NOTICE]   (50) : path to executable is /usr/sbin/haproxy
+[ALERT]    (50) : config : Cannot open configuration file/directory /etc/haproxy/haproxy.cfg : No such file or directory
+[NOTICE]   (76) : haproxy version is 2.8.5-1ubuntu3.3
+[NOTICE]   (76) : path to executable is /usr/sbin/haproxy
+[ALERT]    (76) : config : Cannot open configuration file/directory /etc/haproxy/haproxy.cfg : No such file or directory
+[NOTICE]   (102) : haproxy version is 2.8.5-1ubuntu3.3
+[NOTICE]   (102) : path to executable is /usr/sbin/haproxy
+[ALERT]    (102) : config : Cannot open configuration file/directory /etc/haproxy/haproxy.cfg : No such file or directory
+[NOTICE]   (128) : haproxy version is 2.8.5-1ubuntu3.3
+[NOTICE]   (128) : path to executable is /usr/sbin/haproxy
+[ALERT]    (128) : config : Cannot open configuration file/directory /etc/haproxy/haproxy.cfg : No such file or directory
+[NOTICE]   (166) : haproxy version is 2.8.5-1ubuntu3.3
+[NOTICE]   (166) : path to executable is /usr/sbin/haproxy
+[ALERT]    (166) : config : Cannot open configuration file/directory /etc/haproxy/haproxy.cfg : No such file or directory
+[NOTICE]   (216) : haproxy version is 2.8.5-1ubuntu3.3
+[NOTICE]   (216) : path to executable is /usr/sbin/haproxy
+[ALERT]    (216) : config : Cannot open configuration file/directory /etc/haproxy/haproxy.cfg : No such file or directory
+[NOTICE]   (266) : haproxy version is 2.8.5-1ubuntu3.3
+[NOTICE]   (266) : path to executable is /usr/sbin/haproxy
+[ALERT]    (266) : config : Cannot open configuration file/directory /etc/haproxy/haproxy.cfg : No such file or directory
+[NOTICE]   (316) : haproxy version is 2.8.5-1ubuntu3.3
+[NOTICE]   (316) : path to executable is /usr/sbin/haproxy
+[ALERT]    (316) : config : Cannot open configuration file/directory /etc/haproxy/haproxy.cfg : No such file or directory
+[NOTICE]   (378) : haproxy version is 2.8.5-1ubuntu3.3
+[NOTICE]   (378) : path to executable is /usr/sbin/haproxy
+[ALERT]    (378) : config : Cannot open configuration file/directory /etc/haproxy/haproxy.cfg : No such file or directory
+[NOTICE]   (7) : haproxy version is 2.8.5-1ubuntu3.3
+[NOTICE]   (7) : path to executable is /usr/sbin/haproxy
+[WARNING]  (7) : config : parsing [/etc/haproxy/haproxy.cfg:37] : a 'http-request' rule placed after a 'use_backend' rule will still be processed before.
+[WARNING]  (7) : config : parsing [/etc/haproxy/haproxy.cfg:38] : a 'http-request' rule placed after a 'use_backend' rule will still be processed before.
+[WARNING]  (7) : config : 'http-response' rules ignored for frontend 'in-tcpmode' as they require HTTP mode.
+[WARNING]  (7) : config : log format ignored for proxy 'stats' since it has no log address.
+[NOTICE]   (7) : New worker (36) forked
+[NOTICE]   (7) : Loading success.
+[NOTICE]   (7) : haproxy version is 2.8.5-1ubuntu3.3
+[NOTICE]   (7) : path to executable is /usr/sbin/haproxy
+[WARNING]  (7) : config : parsing [/etc/haproxy/haproxy.cfg:37] : a 'http-request' rule placed after a 'use_backend' rule will still be processed before.
+[WARNING]  (7) : config : parsing [/etc/haproxy/haproxy.cfg:38] : a 'http-request' rule placed after a 'use_backend' rule will still be processed before.
+[WARNING]  (7) : config : 'http-response' rules ignored for frontend 'in-tcpmode' as they require HTTP mode.
+[WARNING]  (7) : config : log format ignored for proxy 'stats' since it has no log address.
+[NOTICE]   (7) : New worker (40) forked
+[NOTICE]   (7) : Loading success.
+[NOTICE]   (7) : haproxy version is 2.8.5-1ubuntu3.3
+[NOTICE]   (7) : path to executable is /usr/sbin/haproxy
+[WARNING]  (7) : config : parsing [/etc/haproxy/haproxy.cfg:37] : a 'http-request' rule placed after a 'use_backend' rule will still be processed before.
+[WARNING]  (7) : config : parsing [/etc/haproxy/haproxy.cfg:38] : a 'http-request' rule placed after a 'use_backend' rule will still be processed before.
+[WARNING]  (7) : config : 'http-response' rules ignored for frontend 'in-tcpmode' as they require HTTP mode.
+[WARNING]  (7) : config : log format ignored for proxy 'stats' since it has no log address.
+[NOTICE]   (7) : New worker (47) forked
+[NOTICE]   (7) : Loading success.
+[NOTICE]   (8) : haproxy version is 2.8.5-1ubuntu3.3
+[NOTICE]   (8) : path to executable is /usr/sbin/haproxy
+[WARNING]  (8) : config : parsing [/etc/haproxy/haproxy.cfg:37] : a 'http-request' rule placed after a 'use_backend' rule will still be processed before.
+[WARNING]  (8) : config : parsing [/etc/haproxy/haproxy.cfg:38] : a 'http-request' rule placed after a 'use_backend' rule will still be processed before.
+[WARNING]  (8) : config : 'http-response' rules ignored for frontend 'in-tcpmode' as they require HTTP mode.
+[WARNING]  (8) : config : log format ignored for proxy 'stats' since it has no log address.
+[NOTICE]   (8) : New worker (49) forked
+[NOTICE]   (8) : Loading success.
+[NOTICE]   (8) : haproxy version is 2.8.5-1ubuntu3.3
+[NOTICE]   (8) : path to executable is /usr/sbin/haproxy
+[WARNING]  (8) : config : parsing [/etc/haproxy/haproxy.cfg:37] : a 'http-request' rule placed after a 'use_backend' rule will still be processed before.
+[WARNING]  (8) : config : parsing [/etc/haproxy/haproxy.cfg:38] : a 'http-request' rule placed after a 'use_backend' rule will still be processed before.
+[WARNING]  (8) : config : 'http-response' rules ignored for frontend 'in-tcpmode' as they require HTTP mode.
+[WARNING]  (8) : config : log format ignored for proxy 'stats' since it has no log address.
+[NOTICE]   (8) : New worker (48) forked
+[NOTICE]   (8) : Loading success.
+[NOTICE]   (9) : haproxy version is 2.8.5-1ubuntu3.3
+[NOTICE]   (9) : path to executable is /usr/sbin/haproxy
+[WARNING]  (9) : config : parsing [/etc/haproxy/haproxy.cfg:37] : a 'http-request' rule placed after a 'use_backend' rule will still be processed before.
+[WARNING]  (9) : config : parsing [/etc/haproxy/haproxy.cfg:38] : a 'http-request' rule placed after a 'use_backend' rule will still be processed before.
+[WARNING]  (9) : config : 'http-response' rules ignored for frontend 'in-tcpmode' as they require HTTP mode.
+[WARNING]  (9) : config : log format ignored for proxy 'stats' since it has no log address.
+[NOTICE]   (9) : New worker (48) forked
+[NOTICE]   (9) : Loading success.
+[NOTICE]   (9) : haproxy version is 2.8.5-1ubuntu3.3
+[NOTICE]   (9) : path to executable is /usr/sbin/haproxy
+[WARNING]  (9) : config : parsing [/etc/haproxy/haproxy.cfg:37] : a 'http-request' rule placed after a 'use_backend' rule will still be processed before.
+[WARNING]  (9) : config : parsing [/etc/haproxy/haproxy.cfg:38] : a 'http-request' rule placed after a 'use_backend' rule will still be processed before.
+[WARNING]  (9) : config : 'http-response' rules ignored for frontend 'in-tcpmode' as they require HTTP mode.
+[WARNING]  (9) : config : log format ignored for proxy 'stats' since it has no log address.
+[NOTICE]   (9) : New worker (49) forked
+[NOTICE]   (9) : Loading success.
+[NOTICE]   (10) : haproxy version is 2.8.5-1ubuntu3.3
+[NOTICE]   (10) : path to executable is /usr/sbin/haproxy
+[WARNING]  (10) : config : parsing [/etc/haproxy/haproxy.cfg:37] : a 'http-request' rule placed after a 'use_backend' rule will still be processed before.
+[WARNING]  (10) : config : parsing [/etc/haproxy/haproxy.cfg:38] : a 'http-request' rule placed after a 'use_backend' rule will still be processed before.
+[WARNING]  (10) : config : 'http-response' rules ignored for frontend 'in-tcpmode' as they require HTTP mode.
+[WARNING]  (10) : config : log format ignored for proxy 'stats' since it has no log address.
+[NOTICE]   (10) : New worker (51) forked
+[NOTICE]   (10) : Loading success.
+[NOTICE]   (11) : haproxy version is 2.8.5-1ubuntu3.3
+[NOTICE]   (11) : path to executable is /usr/sbin/haproxy
+[WARNING]  (11) : config : parsing [/etc/haproxy/haproxy.cfg:37] : a 'http-request' rule placed after a 'use_backend' rule will still be processed before.
+[WARNING]  (11) : config : parsing [/etc/haproxy/haproxy.cfg:38] : a 'http-request' rule placed after a 'use_backend' rule will still be processed before.
+[WARNING]  (11) : config : 'http-response' rules ignored for frontend 'in-tcpmode' as they require HTTP mode.
+[WARNING]  (11) : config : log format ignored for proxy 'stats' since it has no log address.
+[NOTICE]   (11) : New worker (53) forked
+[NOTICE]   (11) : Loading success.
+[NOTICE]   (10) : haproxy version is 2.8.5-1ubuntu3.3
+[NOTICE]   (10) : path to executable is /usr/sbin/haproxy
+[WARNING]  (10) : config : parsing [/etc/haproxy/haproxy.cfg:37] : a 'http-request' rule placed after a 'use_backend' rule will still be processed before.
+[WARNING]  (10) : config : parsing [/etc/haproxy/haproxy.cfg:38] : a 'http-request' rule placed after a 'use_backend' rule will still be processed before.
+[WARNING]  (10) : config : 'http-response' rules ignored for frontend 'in-tcpmode' as they require HTTP mode.
+[WARNING]  (10) : config : log format ignored for proxy 'stats' since it has no log address.
+[NOTICE]   (10) : New worker (49) forked
+[NOTICE]   (10) : Loading success.
+[NOTICE]   (10) : haproxy version is 2.8.5-1ubuntu3.3
+[NOTICE]   (10) : path to executable is /usr/sbin/haproxy
+[WARNING]  (10) : config : parsing [/etc/haproxy/haproxy.cfg:37] : a 'http-request' rule placed after a 'use_backend' rule will still be processed before.
+[WARNING]  (10) : config : parsing [/etc/haproxy/haproxy.cfg:38] : a 'http-request' rule placed after a 'use_backend' rule will still be processed before.
+[WARNING]  (10) : config : 'http-response' rules ignored for frontend 'in-tcpmode' as they require HTTP mode.
+[WARNING]  (10) : config : log format ignored for proxy 'stats' since it has no log address.
+[NOTICE]   (10) : New worker (50) forked
+[NOTICE]   (10) : Loading success.
+[NOTICE]   (10) : haproxy version is 2.8.5-1ubuntu3.3
+[NOTICE]   (10) : path to executable is /usr/sbin/haproxy
+[WARNING]  (10) : config : parsing [/etc/haproxy/haproxy.cfg:37] : a 'http-request' rule placed after a 'use_backend' rule will still be processed before.
+[WARNING]  (10) : config : parsing [/etc/haproxy/haproxy.cfg:38] : a 'http-request' rule placed after a 'use_backend' rule will still be processed before.
+[WARNING]  (10) : config : 'http-response' rules ignored for frontend 'in-tcpmode' as they require HTTP mode.
+[WARNING]  (10) : config : log format ignored for proxy 'stats' since it has no log address.
+[NOTICE]   (10) : New worker (56) forked
+[NOTICE]   (10) : Loading success.

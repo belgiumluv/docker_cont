@@ -1,28 +1,38 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-BIN="/opt/vpnserver"
+BIN="${BIN:-/opt/vpnserver}"
 DB="${DB_PATH:-/var/lib/bd/bd.db}"
+ADDR="${ADDR:-0.0.0.0:8080}"   # внешний адрес/порт, куда слушать
 
 log(){ echo "[run-vpnserver] $*"; }
 
-# Проверки наличия
 if [ ! -x "$BIN" ]; then
   log "FATAL: $BIN not found or not executable"
   exit 1
 fi
+
+# Если базы нет — создаём пустую SQLite
 if [ ! -f "$DB" ]; then
   log "WARN: DB not found at $DB — creating empty SQLite DB"
   mkdir -p "$(dirname "$DB")"
   sqlite3 "$DB" "CREATE TABLE IF NOT EXISTS meta (key TEXT PRIMARY KEY, value TEXT);" || true
 fi
 
-# Попытка понять, поддерживает ли бинарник флаг --db
-if "$BIN" --help 2>&1 | grep -qiE '\-\-db(=|\s)'; then
-  log "Starting with argument --db=$DB"
-  exec "$BIN" --db "$DB"
+ARGS=()
+
+# Безопасно проверяем поддержку флагов, не зависаем
+HELP="$(timeout 2 "$BIN" --help 2>&1 || true)"
+
+if echo "$HELP" | grep -qiE '\-\-db(=|\s)'; then
+  ARGS+=(--db "$DB")
 else
-  log "Starting with env DB_PATH=$DB"
   export DB_PATH="$DB"
-  exec "$BIN"
 fi
+
+if echo "$HELP" | grep -qiE '\-\-addr(=|\s)'; then
+  ARGS+=(--addr "$ADDR")
+fi
+
+log "Starting: $BIN ${ARGS[*]:-} (DB=$DB, ADDR=$ADDR)"
+exec "$BIN" "${ARGS[@]}"

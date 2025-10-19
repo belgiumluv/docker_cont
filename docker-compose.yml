@@ -13,6 +13,10 @@ services:
       - ./bd:/var/lib/bd
       - ./configs:/app/configs:ro
       
+    environment:
+      - CONFIGS_DIR=/app/configs
+      - VPN_DIR=/vpn
+      - DB_PATH=/var/lib/bd/bd.db
       # если есть ssl:
       # - ./vpn/ssl:/vpn/ssl:ro
     ports:

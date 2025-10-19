@@ -434,3 +434,46 @@
 2025-10-19 08:19:24,651 WARN received SIGTERM indicating exit request
 2025-10-19 08:19:24,651 INFO waiting for haproxy, haproxy-reloader, singbox, singbox-reloader, sqlite-init, vpnserver to die
 2025-10-19 08:19:24,656 WARN stopped: vpnserver (terminated by SIGTERM)
+2025-10-19 08:19:26,231 INFO Set uid to user 0 succeeded
+2025-10-19 08:19:26,234 INFO supervisord started with pid 1
+2025-10-19 08:19:27,240 INFO spawned: 'setconfiguration' with pid 7
+2025-10-19 08:19:27,245 INFO spawned: 'mutate-server' with pid 8
+2025-10-19 08:19:27,250 INFO spawned: 'apply-haproxy-changes' with pid 9
+2025-10-19 08:19:27,256 INFO spawned: 'haproxy' with pid 10
+2025-10-19 08:19:27,264 INFO spawned: 'haproxy-reloader' with pid 11
+2025-10-19 08:19:27,272 INFO spawned: 'singbox' with pid 13
+2025-10-19 08:19:27,281 INFO spawned: 'singbox-reloader' with pid 24
+2025-10-19 08:19:27,289 INFO spawned: 'sqlite-init' with pid 27
+2025-10-19 08:19:27,299 INFO spawned: 'vpnserver' with pid 34
+2025-10-19 08:19:27,350 WARN exited: apply-haproxy-changes (exit status 0; not expected)
+2025-10-19 08:19:27,493 WARN exited: setconfiguration (exit status 1; not expected)
+2025-10-19 08:19:27,527 WARN exited: mutate-server (exit status 0; not expected)
+2025-10-19 08:19:28,533 INFO spawned: 'setconfiguration' with pid 62
+2025-10-19 08:19:28,538 INFO spawned: 'mutate-server' with pid 63
+2025-10-19 08:19:28,542 INFO spawned: 'apply-haproxy-changes' with pid 64
+2025-10-19 08:19:28,543 INFO success: haproxy entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-19 08:19:28,543 INFO success: haproxy-reloader entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-19 08:19:28,544 INFO success: singbox entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-19 08:19:28,544 INFO success: singbox-reloader entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-19 08:19:28,545 INFO success: sqlite-init entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-19 08:19:28,545 INFO success: vpnserver entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-19 08:19:28,607 WARN exited: apply-haproxy-changes (exit status 0; not expected)
+2025-10-19 08:19:28,739 WARN exited: setconfiguration (exit status 1; not expected)
+2025-10-19 08:19:28,786 WARN exited: mutate-server (exit status 0; not expected)
+2025-10-19 08:19:30,793 INFO spawned: 'setconfiguration' with pid 77
+2025-10-19 08:19:30,798 INFO spawned: 'mutate-server' with pid 78
+2025-10-19 08:19:30,802 INFO spawned: 'apply-haproxy-changes' with pid 79
+2025-10-19 08:19:30,869 WARN exited: apply-haproxy-changes (exit status 0; not expected)
+2025-10-19 08:19:30,992 WARN exited: setconfiguration (exit status 1; not expected)
+2025-10-19 08:19:31,038 WARN exited: mutate-server (exit status 0; not expected)
+2025-10-19 08:19:34,317 INFO spawned: 'setconfiguration' with pid 104
+2025-10-19 08:19:34,322 INFO spawned: 'mutate-server' with pid 105
+2025-10-19 08:19:34,327 INFO spawned: 'apply-haproxy-changes' with pid 106
+2025-10-19 08:19:34,388 WARN exited: apply-haproxy-changes (exit status 0; not expected)
+2025-10-19 08:19:34,450 INFO gave up: apply-haproxy-changes entered FATAL state, too many start retries too quickly
+2025-10-19 08:19:34,509 WARN exited: setconfiguration (exit status 1; not expected)
+2025-10-19 08:19:34,528 INFO gave up: setconfiguration entered FATAL state, too many start retries too quickly
+2025-10-19 08:19:34,537 WARN exited: mutate-server (exit status 0; not expected)
+2025-10-19 08:19:35,540 INFO gave up: mutate-server entered FATAL state, too many start retries too quickly
+2025-10-19 08:44:47,314 WARN received SIGTERM indicating exit request
+2025-10-19 08:44:47,315 INFO waiting for haproxy, haproxy-reloader, singbox, singbox-reloader, sqlite-init, vpnserver to die

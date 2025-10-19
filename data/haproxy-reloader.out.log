@@ -37,3 +37,9 @@ unix:///var/run/supervisor.sock no such file
 [haproxy-reloader] config valid, restarting via supervisor
 unix:///var/run/supervisor.sock no such file
 [haproxy-reloader] supervisorctl restart failed
+[haproxy-reloader] watching /etc/haproxy (main: /etc/haproxy/haproxy.cfg), interval=2s
+[haproxy-reloader] changes still flowing, waiting…
+[haproxy-reloader] detected change, validating /etc/haproxy/haproxy.cfg…
+[haproxy-reloader] config valid, restarting via supervisor
+unix:///var/run/supervisor.sock no such file
+[haproxy-reloader] supervisorctl restart failed

@@ -127,3 +127,11 @@
 [WARNING]  (10) : config : log format ignored for proxy 'stats' since it has no log address.
 [NOTICE]   (10) : New worker (56) forked
 [NOTICE]   (10) : Loading success.
+[NOTICE]   (10) : haproxy version is 2.8.5-1ubuntu3.3
+[NOTICE]   (10) : path to executable is /usr/sbin/haproxy
+[WARNING]  (10) : config : parsing [/etc/haproxy/haproxy.cfg:37] : a 'http-request' rule placed after a 'use_backend' rule will still be processed before.
+[WARNING]  (10) : config : parsing [/etc/haproxy/haproxy.cfg:38] : a 'http-request' rule placed after a 'use_backend' rule will still be processed before.
+[WARNING]  (10) : config : 'http-response' rules ignored for frontend 'in-tcpmode' as they require HTTP mode.
+[WARNING]  (10) : config : log format ignored for proxy 'stats' since it has no log address.
+[NOTICE]   (10) : New worker (49) forked
+[NOTICE]   (10) : Loading success.

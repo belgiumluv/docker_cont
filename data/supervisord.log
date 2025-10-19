@@ -477,3 +477,17 @@
 2025-10-19 08:19:35,540 INFO gave up: mutate-server entered FATAL state, too many start retries too quickly
 2025-10-19 08:44:47,314 WARN received SIGTERM indicating exit request
 2025-10-19 08:44:47,315 INFO waiting for haproxy, haproxy-reloader, singbox, singbox-reloader, sqlite-init, vpnserver to die
+2025-10-19 08:44:56,590 INFO Set uid to user 0 succeeded
+2025-10-19 08:44:56,592 INFO supervisord started with pid 1
+2025-10-19 08:44:57,598 INFO spawned: 'haproxy' with pid 19
+2025-10-19 08:44:57,604 INFO spawned: 'haproxy-reloader' with pid 20
+2025-10-19 08:44:57,611 INFO spawned: 'singbox' with pid 22
+2025-10-19 08:44:57,618 INFO spawned: 'singbox-reloader' with pid 30
+2025-10-19 08:44:57,627 INFO spawned: 'sqlite-init' with pid 36
+2025-10-19 08:44:57,633 INFO spawned: 'vpnserver' with pid 41
+2025-10-19 08:44:57,637 INFO success: sqlite-init entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-10-19 08:44:58,771 INFO success: haproxy entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-19 08:44:58,771 INFO success: haproxy-reloader entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-19 08:44:58,772 INFO success: singbox entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-19 08:44:58,772 INFO success: singbox-reloader entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-19 08:44:58,773 INFO success: vpnserver entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)

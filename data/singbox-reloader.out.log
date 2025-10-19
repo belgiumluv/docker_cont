@@ -52,3 +52,4 @@ unix:///var/run/supervisor.sock no such file
 [singbox-reloader] config valid, restarting via supervisor
 unix:///var/run/supervisor.sock no such file
 [singbox-reloader] supervisorctl restart failed
+[singbox-reloader] watching /vpn/server.json, interval=2s

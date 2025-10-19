@@ -157,7 +157,7 @@ ROOT_PREFIX = os.getenv("ROOT_PREFIX", "")
 HAP_PATH = os.path.join(ROOT_PREFIX, "etc/haproxy/haproxy.cfg")   # будет /host/etc/haproxy/haproxy.cfg
 CHANGES_PATH = os.path.join(ROOT_PREFIX, "vpn/changes_dict.json") # будет /host/opt/changes_dict.json
 
-DOMAIN_PATH = os.path.join(ROOT_PREFIX, "vpn/msq_domain_list_vibork.json") # будет /host/opt/changes_dict.json
+DOMAIN_PATH = os.path.join(ROOT_PREFIX, "vpn/masq_domain_list.json") # будет /host/opt/changes_dict.json
 
 if __name__ == "__main__":
     with open(DOMAIN_PATH, 'r', encoding='utf-8') as file_1:

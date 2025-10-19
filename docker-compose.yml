@@ -12,6 +12,7 @@ services:
       - ./configs/haproxy.cfg:/etc/haproxy/haproxy.cfg:rw
       - ./bd:/var/lib/bd
       - ./configs:/app/configs:ro
+      - ./configs/masq_domain_list.json:/vpn/masq_domain_list.json:ro
       
     environment:
       - CONFIGS_DIR=/app/configs

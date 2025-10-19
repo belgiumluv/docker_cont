@@ -1,0 +1,2016 @@
+{
+  "inbounds": [
+    {
+      "domain_strategy": "prefer_ipv4",
+      "listen": "127.0.0.1",
+      "listen_port": 5021,
+      "sniff": true,
+      "sniff_override_destination": true,
+      "tag": "v10-trojan-grpc",
+      "tcp_fast_open": true,
+      "transport": {
+        "idle_timeout": "15s",
+        "ping_timeout": "15s",
+        "service_name": "apini7LRK497Xb7IjzZGXG7cm",
+        "type": "grpc"
+      },
+      "type": "trojan",
+      "users": [
+        {
+          "name": "49d0abc0-15ec-4533-983e-f2cf0320ca23@hiddify.com",
+          "password": "49d0abc0-15ec-4533-983e-f2cf0320ca23"
+        },
+        {
+          "name": "cfb4973d-8b61-48d0-b0d9-95fb4d583654@hiddify.com",
+          "password": "cfb4973d-8b61-48d0-b0d9-95fb4d583654"
+        },
+        {
+          "name": "fe47abda-99f1-4eb2-9e35-baf9e061d59e@hiddify.com",
+          "password": "fe47abda-99f1-4eb2-9e35-baf9e061d59e"
+        },
+        {
+          "name": "0a30555e-c8b2-456a-a6a3-e3a983885946@hiddify.com",
+          "password": "0a30555e-c8b2-456a-a6a3-e3a983885946"
+        },
+        {
+          "name": "00b3ab54-be04-4422-9ddd-ce63f154c635@hiddify.com",
+          "password": "00b3ab54-be04-4422-9ddd-ce63f154c635"
+        },
+        {
+          "name": "9ce279f3-8953-46b8-a9d5-0d60084dcd19@hiddify.com",
+          "password": "9ce279f3-8953-46b8-a9d5-0d60084dcd19"
+        },
+        {
+          "name": "94701540-8c79-4d50-9258-600c0fa3e358@hiddify.com",
+          "password": "94701540-8c79-4d50-9258-600c0fa3e358"
+        },
+        {
+          "name": "7b308456-755c-46db-9436-a135f130fd19@hiddify.com",
+          "password": "7b308456-755c-46db-9436-a135f130fd19"
+        },
+        {
+          "name": "5cb7a42b-9664-430f-9e4b-2430a04d1cb7@hiddify.com",
+          "password": "5cb7a42b-9664-430f-9e4b-2430a04d1cb7"
+        },
+        {
+          "name": "05893b60-4e15-4ec3-9e4f-d3f51358402f@hiddify.com",
+          "password": "05893b60-4e15-4ec3-9e4f-d3f51358402f"
+        },
+        {
+          "name": "bd8d3a6c-9bf7-400e-8287-960021bd92e6@hiddify.com",
+          "password": "bd8d3a6c-9bf7-400e-8287-960021bd92e6"
+        },
+        {
+          "name": "f6f785cc-eea7-41c9-bed0-661838916b81@hiddify.com",
+          "password": "f6f785cc-eea7-41c9-bed0-661838916b81"
+        },
+        {
+          "name": "25a2cbac-6c8b-4def-9707-d6e5f9f6abc4@hiddify.com",
+          "password": "25a2cbac-6c8b-4def-9707-d6e5f9f6abc4"
+        },
+        {
+          "name": "a94d1a86-a84d-4b42-b602-595f2ba735a2@hiddify.com",
+          "password": "a94d1a86-a84d-4b42-b602-595f2ba735a2"
+        },
+        {
+          "name": "e8fd7557-f51d-4044-942b-4021261605f1@hiddify.com",
+          "password": "e8fd7557-f51d-4044-942b-4021261605f1"
+        },
+        {
+          "name": "e8f2b9dc-8812-4ccd-bf70-ceb32d634a97@hiddify.com",
+          "password": "e8f2b9dc-8812-4ccd-bf70-ceb32d634a97"
+        },
+        {
+          "name": "b69a47e6-fa67-472c-9585-732edc8fdd6b@hiddify.com",
+          "password": "b69a47e6-fa67-472c-9585-732edc8fdd6b"
+        },
+        {
+          "name": "fc5c88a0-9809-45b2-bb47-f26a14ffa65d@hiddify.com",
+          "password": "fc5c88a0-9809-45b2-bb47-f26a14ffa65d"
+        },
+        {
+          "name": "941a3c13-a9aa-44a2-a29f-35d8849092d0@hiddify.com",
+          "password": "941a3c13-a9aa-44a2-a29f-35d8849092d0"
+        },
+        {
+          "name": "0bbbd5be-6643-4ea5-adc8-6ff86a0efb65@hiddify.com",
+          "password": "0bbbd5be-6643-4ea5-adc8-6ff86a0efb65"
+        },
+        {
+          "name": "14436cb5-91ba-4077-8d92-ac5a19c6535e@hiddify.com",
+          "password": "14436cb5-91ba-4077-8d92-ac5a19c6535e"
+        },
+        {
+          "name": "07671b2b-ae99-4e85-b1fe-a424a5490c9c@hiddify.com",
+          "password": "07671b2b-ae99-4e85-b1fe-a424a5490c9c"
+        },
+        {
+          "name": "d069bfb6-20ac-43c3-98ec-b5f4971288db@hiddify.com",
+          "password": "d069bfb6-20ac-43c3-98ec-b5f4971288db"
+        }
+      ]
+    },
+    {
+      "domain_strategy": "prefer_ipv4",
+      "listen": "127.0.0.1",
+      "listen_port": 5001,
+      "sniff": true,
+      "sniff_override_destination": true,
+      "tag": "v10-vless-grpc",
+      "tcp_fast_open": true,
+      "transport": {
+        "idle_timeout": "15s",
+        "ping_timeout": "15s",
+        "service_name": "apitObEERPkIEr8gXb8srSbKc",
+        "type": "grpc"
+      },
+      "type": "vless",
+      "users": [
+        {
+          "flow": "",
+          "name": "49d0abc0-15ec-4533-983e-f2cf0320ca23@hiddify.com",
+          "uuid": "49d0abc0-15ec-4533-983e-f2cf0320ca23"
+        },
+        {
+          "flow": "",
+          "name": "cfb4973d-8b61-48d0-b0d9-95fb4d583654@hiddify.com",
+          "uuid": "cfb4973d-8b61-48d0-b0d9-95fb4d583654"
+        },
+        {
+          "flow": "",
+          "name": "fe47abda-99f1-4eb2-9e35-baf9e061d59e@hiddify.com",
+          "uuid": "fe47abda-99f1-4eb2-9e35-baf9e061d59e"
+        },
+        {
+          "flow": "",
+          "name": "0a30555e-c8b2-456a-a6a3-e3a983885946@hiddify.com",
+          "uuid": "0a30555e-c8b2-456a-a6a3-e3a983885946"
+        },
+        {
+          "flow": "",
+          "name": "00b3ab54-be04-4422-9ddd-ce63f154c635@hiddify.com",
+          "uuid": "00b3ab54-be04-4422-9ddd-ce63f154c635"
+        },
+        {
+          "flow": "",
+          "name": "9ce279f3-8953-46b8-a9d5-0d60084dcd19@hiddify.com",
+          "uuid": "9ce279f3-8953-46b8-a9d5-0d60084dcd19"
+        },
+        {
+          "flow": "",
+          "name": "94701540-8c79-4d50-9258-600c0fa3e358@hiddify.com",
+          "uuid": "94701540-8c79-4d50-9258-600c0fa3e358"
+        },
+        {
+          "flow": "",
+          "name": "7b308456-755c-46db-9436-a135f130fd19@hiddify.com",
+          "uuid": "7b308456-755c-46db-9436-a135f130fd19"
+        },
+        {
+          "flow": "",
+          "name": "5cb7a42b-9664-430f-9e4b-2430a04d1cb7@hiddify.com",
+          "uuid": "5cb7a42b-9664-430f-9e4b-2430a04d1cb7"
+        },
+        {
+          "flow": "",
+          "name": "05893b60-4e15-4ec3-9e4f-d3f51358402f@hiddify.com",
+          "uuid": "05893b60-4e15-4ec3-9e4f-d3f51358402f"
+        },
+        {
+          "flow": "",
+          "name": "bd8d3a6c-9bf7-400e-8287-960021bd92e6@hiddify.com",
+          "uuid": "bd8d3a6c-9bf7-400e-8287-960021bd92e6"
+        },
+        {
+          "flow": "",
+          "name": "f6f785cc-eea7-41c9-bed0-661838916b81@hiddify.com",
+          "uuid": "f6f785cc-eea7-41c9-bed0-661838916b81"
+        },
+        {
+          "flow": "",
+          "name": "25a2cbac-6c8b-4def-9707-d6e5f9f6abc4@hiddify.com",
+          "uuid": "25a2cbac-6c8b-4def-9707-d6e5f9f6abc4"
+        },
+        {
+          "flow": "",
+          "name": "a94d1a86-a84d-4b42-b602-595f2ba735a2@hiddify.com",
+          "uuid": "a94d1a86-a84d-4b42-b602-595f2ba735a2"
+        },
+        {
+          "flow": "",
+          "name": "e8fd7557-f51d-4044-942b-4021261605f1@hiddify.com",
+          "uuid": "e8fd7557-f51d-4044-942b-4021261605f1"
+        },
+        {
+          "flow": "",
+          "name": "e8f2b9dc-8812-4ccd-bf70-ceb32d634a97@hiddify.com",
+          "uuid": "e8f2b9dc-8812-4ccd-bf70-ceb32d634a97"
+        },
+        {
+          "flow": "",
+          "name": "b69a47e6-fa67-472c-9585-732edc8fdd6b@hiddify.com",
+          "uuid": "b69a47e6-fa67-472c-9585-732edc8fdd6b"
+        },
+        {
+          "flow": "",
+          "name": "fc5c88a0-9809-45b2-bb47-f26a14ffa65d@hiddify.com",
+          "uuid": "fc5c88a0-9809-45b2-bb47-f26a14ffa65d"
+        },
+        {
+          "flow": "",
+          "name": "941a3c13-a9aa-44a2-a29f-35d8849092d0@hiddify.com",
+          "uuid": "941a3c13-a9aa-44a2-a29f-35d8849092d0"
+        },
+        {
+          "flow": "",
+          "name": "0bbbd5be-6643-4ea5-adc8-6ff86a0efb65@hiddify.com",
+          "uuid": "0bbbd5be-6643-4ea5-adc8-6ff86a0efb65"
+        },
+        {
+          "flow": "",
+          "name": "14436cb5-91ba-4077-8d92-ac5a19c6535e@hiddify.com",
+          "uuid": "14436cb5-91ba-4077-8d92-ac5a19c6535e"
+        },
+        {
+          "flow": "",
+          "name": "07671b2b-ae99-4e85-b1fe-a424a5490c9c@hiddify.com",
+          "uuid": "07671b2b-ae99-4e85-b1fe-a424a5490c9c"
+        },
+        {
+          "flow": "",
+          "name": "d069bfb6-20ac-43c3-98ec-b5f4971288db@hiddify.com",
+          "uuid": "d069bfb6-20ac-43c3-98ec-b5f4971288db"
+        }
+      ]
+    },
+    {
+      "domain_strategy": "prefer_ipv4",
+      "listen": "127.0.0.1",
+      "listen_port": 5011,
+      "sniff": true,
+      "sniff_override_destination": true,
+      "tag": "v10-vmess-grpc",
+      "tcp_fast_open": true,
+      "transport": {
+        "idle_timeout": "15s",
+        "ping_timeout": "15s",
+        "service_name": "apiEWDrMaYdiGetT4gvnQW3gX",
+        "type": "grpc"
+      },
+      "type": "vmess",
+      "users": [
+        {
+          "alterId": 0,
+          "name": "49d0abc0-15ec-4533-983e-f2cf0320ca23@hiddify.com",
+          "uuid": "49d0abc0-15ec-4533-983e-f2cf0320ca23"
+        },
+        {
+          "alterId": 0,
+          "name": "cfb4973d-8b61-48d0-b0d9-95fb4d583654@hiddify.com",
+          "uuid": "cfb4973d-8b61-48d0-b0d9-95fb4d583654"
+        },
+        {
+          "alterId": 0,
+          "name": "fe47abda-99f1-4eb2-9e35-baf9e061d59e@hiddify.com",
+          "uuid": "fe47abda-99f1-4eb2-9e35-baf9e061d59e"
+        },
+        {
+          "alterId": 0,
+          "name": "0a30555e-c8b2-456a-a6a3-e3a983885946@hiddify.com",
+          "uuid": "0a30555e-c8b2-456a-a6a3-e3a983885946"
+        },
+        {
+          "alterId": 0,
+          "name": "00b3ab54-be04-4422-9ddd-ce63f154c635@hiddify.com",
+          "uuid": "00b3ab54-be04-4422-9ddd-ce63f154c635"
+        },
+        {
+          "alterId": 0,
+          "name": "9ce279f3-8953-46b8-a9d5-0d60084dcd19@hiddify.com",
+          "uuid": "9ce279f3-8953-46b8-a9d5-0d60084dcd19"
+        },
+        {
+          "alterId": 0,
+          "name": "94701540-8c79-4d50-9258-600c0fa3e358@hiddify.com",
+          "uuid": "94701540-8c79-4d50-9258-600c0fa3e358"
+        },
+        {
+          "alterId": 0,
+          "name": "7b308456-755c-46db-9436-a135f130fd19@hiddify.com",
+          "uuid": "7b308456-755c-46db-9436-a135f130fd19"
+        },
+        {
+          "alterId": 0,
+          "name": "5cb7a42b-9664-430f-9e4b-2430a04d1cb7@hiddify.com",
+          "uuid": "5cb7a42b-9664-430f-9e4b-2430a04d1cb7"
+        },
+        {
+          "alterId": 0,
+          "name": "05893b60-4e15-4ec3-9e4f-d3f51358402f@hiddify.com",
+          "uuid": "05893b60-4e15-4ec3-9e4f-d3f51358402f"
+        },
+        {
+          "alterId": 0,
+          "name": "bd8d3a6c-9bf7-400e-8287-960021bd92e6@hiddify.com",
+          "uuid": "bd8d3a6c-9bf7-400e-8287-960021bd92e6"
+        },
+        {
+          "alterId": 0,
+          "name": "f6f785cc-eea7-41c9-bed0-661838916b81@hiddify.com",
+          "uuid": "f6f785cc-eea7-41c9-bed0-661838916b81"
+        },
+        {
+          "alterId": 0,
+          "name": "25a2cbac-6c8b-4def-9707-d6e5f9f6abc4@hiddify.com",
+          "uuid": "25a2cbac-6c8b-4def-9707-d6e5f9f6abc4"
+        },
+        {
+          "alterId": 0,
+          "name": "a94d1a86-a84d-4b42-b602-595f2ba735a2@hiddify.com",
+          "uuid": "a94d1a86-a84d-4b42-b602-595f2ba735a2"
+        },
+        {
+          "alterId": 0,
+          "name": "e8fd7557-f51d-4044-942b-4021261605f1@hiddify.com",
+          "uuid": "e8fd7557-f51d-4044-942b-4021261605f1"
+        },
+        {
+          "alterId": 0,
+          "name": "e8f2b9dc-8812-4ccd-bf70-ceb32d634a97@hiddify.com",
+          "uuid": "e8f2b9dc-8812-4ccd-bf70-ceb32d634a97"
+        },
+        {
+          "alterId": 0,
+          "name": "b69a47e6-fa67-472c-9585-732edc8fdd6b@hiddify.com",
+          "uuid": "b69a47e6-fa67-472c-9585-732edc8fdd6b"
+        },
+        {
+          "alterId": 0,
+          "name": "fc5c88a0-9809-45b2-bb47-f26a14ffa65d@hiddify.com",
+          "uuid": "fc5c88a0-9809-45b2-bb47-f26a14ffa65d"
+        },
+        {
+          "alterId": 0,
+          "name": "941a3c13-a9aa-44a2-a29f-35d8849092d0@hiddify.com",
+          "uuid": "941a3c13-a9aa-44a2-a29f-35d8849092d0"
+        },
+        {
+          "alterId": 0,
+          "name": "0bbbd5be-6643-4ea5-adc8-6ff86a0efb65@hiddify.com",
+          "uuid": "0bbbd5be-6643-4ea5-adc8-6ff86a0efb65"
+        },
+        {
+          "alterId": 0,
+          "name": "14436cb5-91ba-4077-8d92-ac5a19c6535e@hiddify.com",
+          "uuid": "14436cb5-91ba-4077-8d92-ac5a19c6535e"
+        },
+        {
+          "alterId": 0,
+          "name": "07671b2b-ae99-4e85-b1fe-a424a5490c9c@hiddify.com",
+          "uuid": "07671b2b-ae99-4e85-b1fe-a424a5490c9c"
+        },
+        {
+          "alterId": 0,
+          "name": "d069bfb6-20ac-43c3-98ec-b5f4971288db@hiddify.com",
+          "uuid": "d069bfb6-20ac-43c3-98ec-b5f4971288db"
+        }
+      ]
+    },
+    {
+      "domain_strategy": "prefer_ipv4",
+      "listen": "127.0.0.1",
+      "listen_port": 5003,
+      "sniff": true,
+      "sniff_override_destination": true,
+      "tag": "v10-vless-httpupgrade",
+      "tcp_fast_open": true,
+      "transport": {
+        "path": "/filesOyrpEXpbPhAKXlAy849WiS",
+        "type": "httpupgrade"
+      },
+      "type": "vless",
+      "users": [
+        {
+          "flow": "",
+          "name": "49d0abc0-15ec-4533-983e-f2cf0320ca23@hiddify.com",
+          "uuid": "49d0abc0-15ec-4533-983e-f2cf0320ca23"
+        },
+        {
+          "flow": "",
+          "name": "cfb4973d-8b61-48d0-b0d9-95fb4d583654@hiddify.com",
+          "uuid": "cfb4973d-8b61-48d0-b0d9-95fb4d583654"
+        },
+        {
+          "flow": "",
+          "name": "fe47abda-99f1-4eb2-9e35-baf9e061d59e@hiddify.com",
+          "uuid": "fe47abda-99f1-4eb2-9e35-baf9e061d59e"
+        },
+        {
+          "flow": "",
+          "name": "0a30555e-c8b2-456a-a6a3-e3a983885946@hiddify.com",
+          "uuid": "0a30555e-c8b2-456a-a6a3-e3a983885946"
+        },
+        {
+          "flow": "",
+          "name": "00b3ab54-be04-4422-9ddd-ce63f154c635@hiddify.com",
+          "uuid": "00b3ab54-be04-4422-9ddd-ce63f154c635"
+        },
+        {
+          "flow": "",
+          "name": "9ce279f3-8953-46b8-a9d5-0d60084dcd19@hiddify.com",
+          "uuid": "9ce279f3-8953-46b8-a9d5-0d60084dcd19"
+        },
+        {
+          "flow": "",
+          "name": "94701540-8c79-4d50-9258-600c0fa3e358@hiddify.com",
+          "uuid": "94701540-8c79-4d50-9258-600c0fa3e358"
+        },
+        {
+          "flow": "",
+          "name": "7b308456-755c-46db-9436-a135f130fd19@hiddify.com",
+          "uuid": "7b308456-755c-46db-9436-a135f130fd19"
+        },
+        {
+          "flow": "",
+          "name": "5cb7a42b-9664-430f-9e4b-2430a04d1cb7@hiddify.com",
+          "uuid": "5cb7a42b-9664-430f-9e4b-2430a04d1cb7"
+        },
+        {
+          "flow": "",
+          "name": "05893b60-4e15-4ec3-9e4f-d3f51358402f@hiddify.com",
+          "uuid": "05893b60-4e15-4ec3-9e4f-d3f51358402f"
+        },
+        {
+          "flow": "",
+          "name": "bd8d3a6c-9bf7-400e-8287-960021bd92e6@hiddify.com",
+          "uuid": "bd8d3a6c-9bf7-400e-8287-960021bd92e6"
+        },
+        {
+          "flow": "",
+          "name": "f6f785cc-eea7-41c9-bed0-661838916b81@hiddify.com",
+          "uuid": "f6f785cc-eea7-41c9-bed0-661838916b81"
+        },
+        {
+          "flow": "",
+          "name": "25a2cbac-6c8b-4def-9707-d6e5f9f6abc4@hiddify.com",
+          "uuid": "25a2cbac-6c8b-4def-9707-d6e5f9f6abc4"
+        },
+        {
+          "flow": "",
+          "name": "a94d1a86-a84d-4b42-b602-595f2ba735a2@hiddify.com",
+          "uuid": "a94d1a86-a84d-4b42-b602-595f2ba735a2"
+        },
+        {
+          "flow": "",
+          "name": "e8fd7557-f51d-4044-942b-4021261605f1@hiddify.com",
+          "uuid": "e8fd7557-f51d-4044-942b-4021261605f1"
+        },
+        {
+          "flow": "",
+          "name": "e8f2b9dc-8812-4ccd-bf70-ceb32d634a97@hiddify.com",
+          "uuid": "e8f2b9dc-8812-4ccd-bf70-ceb32d634a97"
+        },
+        {
+          "flow": "",
+          "name": "b69a47e6-fa67-472c-9585-732edc8fdd6b@hiddify.com",
+          "uuid": "b69a47e6-fa67-472c-9585-732edc8fdd6b"
+        },
+        {
+          "flow": "",
+          "name": "fc5c88a0-9809-45b2-bb47-f26a14ffa65d@hiddify.com",
+          "uuid": "fc5c88a0-9809-45b2-bb47-f26a14ffa65d"
+        },
+        {
+          "flow": "",
+          "name": "941a3c13-a9aa-44a2-a29f-35d8849092d0@hiddify.com",
+          "uuid": "941a3c13-a9aa-44a2-a29f-35d8849092d0"
+        },
+        {
+          "flow": "",
+          "name": "0bbbd5be-6643-4ea5-adc8-6ff86a0efb65@hiddify.com",
+          "uuid": "0bbbd5be-6643-4ea5-adc8-6ff86a0efb65"
+        },
+        {
+          "flow": "",
+          "name": "14436cb5-91ba-4077-8d92-ac5a19c6535e@hiddify.com",
+          "uuid": "14436cb5-91ba-4077-8d92-ac5a19c6535e"
+        },
+        {
+          "flow": "",
+          "name": "07671b2b-ae99-4e85-b1fe-a424a5490c9c@hiddify.com",
+          "uuid": "07671b2b-ae99-4e85-b1fe-a424a5490c9c"
+        },
+        {
+          "flow": "",
+          "name": "d069bfb6-20ac-43c3-98ec-b5f4971288db@hiddify.com",
+          "uuid": "d069bfb6-20ac-43c3-98ec-b5f4971288db"
+        }
+      ]
+    },
+    {
+      "domain_strategy": "prefer_ipv4",
+      "listen": "127.0.0.1",
+      "listen_port": 5002,
+      "sniff": true,
+      "sniff_override_destination": true,
+      "tag": "v10-vless-tcp",
+      "tcp_fast_open": true,
+      "transport": {
+        "idle_timeout": "15s",
+        "path": "/userolumX6ve6LVmRKT49w7wns",
+        "ping_timeout": "15s",
+        "type": "http"
+      },
+      "type": "vless",
+      "users": [
+        {
+          "flow": "",
+          "name": "49d0abc0-15ec-4533-983e-f2cf0320ca23@hiddify.com",
+          "uuid": "49d0abc0-15ec-4533-983e-f2cf0320ca23"
+        },
+        {
+          "flow": "",
+          "name": "cfb4973d-8b61-48d0-b0d9-95fb4d583654@hiddify.com",
+          "uuid": "cfb4973d-8b61-48d0-b0d9-95fb4d583654"
+        },
+        {
+          "flow": "",
+          "name": "fe47abda-99f1-4eb2-9e35-baf9e061d59e@hiddify.com",
+          "uuid": "fe47abda-99f1-4eb2-9e35-baf9e061d59e"
+        },
+        {
+          "flow": "",
+          "name": "0a30555e-c8b2-456a-a6a3-e3a983885946@hiddify.com",
+          "uuid": "0a30555e-c8b2-456a-a6a3-e3a983885946"
+        },
+        {
+          "flow": "",
+          "name": "00b3ab54-be04-4422-9ddd-ce63f154c635@hiddify.com",
+          "uuid": "00b3ab54-be04-4422-9ddd-ce63f154c635"
+        },
+        {
+          "flow": "",
+          "name": "9ce279f3-8953-46b8-a9d5-0d60084dcd19@hiddify.com",
+          "uuid": "9ce279f3-8953-46b8-a9d5-0d60084dcd19"
+        },
+        {
+          "flow": "",
+          "name": "94701540-8c79-4d50-9258-600c0fa3e358@hiddify.com",
+          "uuid": "94701540-8c79-4d50-9258-600c0fa3e358"
+        },
+        {
+          "flow": "",
+          "name": "7b308456-755c-46db-9436-a135f130fd19@hiddify.com",
+          "uuid": "7b308456-755c-46db-9436-a135f130fd19"
+        },
+        {
+          "flow": "",
+          "name": "5cb7a42b-9664-430f-9e4b-2430a04d1cb7@hiddify.com",
+          "uuid": "5cb7a42b-9664-430f-9e4b-2430a04d1cb7"
+        },
+        {
+          "flow": "",
+          "name": "05893b60-4e15-4ec3-9e4f-d3f51358402f@hiddify.com",
+          "uuid": "05893b60-4e15-4ec3-9e4f-d3f51358402f"
+        },
+        {
+          "flow": "",
+          "name": "bd8d3a6c-9bf7-400e-8287-960021bd92e6@hiddify.com",
+          "uuid": "bd8d3a6c-9bf7-400e-8287-960021bd92e6"
+        },
+        {
+          "flow": "",
+          "name": "f6f785cc-eea7-41c9-bed0-661838916b81@hiddify.com",
+          "uuid": "f6f785cc-eea7-41c9-bed0-661838916b81"
+        },
+        {
+          "flow": "",
+          "name": "25a2cbac-6c8b-4def-9707-d6e5f9f6abc4@hiddify.com",
+          "uuid": "25a2cbac-6c8b-4def-9707-d6e5f9f6abc4"
+        },
+        {
+          "flow": "",
+          "name": "a94d1a86-a84d-4b42-b602-595f2ba735a2@hiddify.com",
+          "uuid": "a94d1a86-a84d-4b42-b602-595f2ba735a2"
+        },
+        {
+          "flow": "",
+          "name": "e8fd7557-f51d-4044-942b-4021261605f1@hiddify.com",
+          "uuid": "e8fd7557-f51d-4044-942b-4021261605f1"
+        },
+        {
+          "flow": "",
+          "name": "e8f2b9dc-8812-4ccd-bf70-ceb32d634a97@hiddify.com",
+          "uuid": "e8f2b9dc-8812-4ccd-bf70-ceb32d634a97"
+        },
+        {
+          "flow": "",
+          "name": "b69a47e6-fa67-472c-9585-732edc8fdd6b@hiddify.com",
+          "uuid": "b69a47e6-fa67-472c-9585-732edc8fdd6b"
+        },
+        {
+          "flow": "",
+          "name": "fc5c88a0-9809-45b2-bb47-f26a14ffa65d@hiddify.com",
+          "uuid": "fc5c88a0-9809-45b2-bb47-f26a14ffa65d"
+        },
+        {
+          "flow": "",
+          "name": "941a3c13-a9aa-44a2-a29f-35d8849092d0@hiddify.com",
+          "uuid": "941a3c13-a9aa-44a2-a29f-35d8849092d0"
+        },
+        {
+          "flow": "",
+          "name": "0bbbd5be-6643-4ea5-adc8-6ff86a0efb65@hiddify.com",
+          "uuid": "0bbbd5be-6643-4ea5-adc8-6ff86a0efb65"
+        },
+        {
+          "flow": "",
+          "name": "14436cb5-91ba-4077-8d92-ac5a19c6535e@hiddify.com",
+          "uuid": "14436cb5-91ba-4077-8d92-ac5a19c6535e"
+        },
+        {
+          "flow": "",
+          "name": "07671b2b-ae99-4e85-b1fe-a424a5490c9c@hiddify.com",
+          "uuid": "07671b2b-ae99-4e85-b1fe-a424a5490c9c"
+        },
+        {
+          "flow": "",
+          "name": "d069bfb6-20ac-43c3-98ec-b5f4971288db@hiddify.com",
+          "uuid": "d069bfb6-20ac-43c3-98ec-b5f4971288db"
+        }
+      ]
+    },
+    {
+      "domain_strategy": "prefer_ipv4",
+      "listen": "127.0.0.1",
+      "listen_port": 5010,
+      "sniff": true,
+      "sniff_override_destination": true,
+      "tag": "v10-vmess-ws",
+      "tcp_fast_open": true,
+      "transport": {
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "path": "/assetsn0EXLjNrDHJYNIlQ2m67CA",
+        "type": "ws"
+      },
+      "type": "vmess",
+      "users": [
+        {
+          "alterId": 0,
+          "name": "49d0abc0-15ec-4533-983e-f2cf0320ca23@hiddify.com",
+          "uuid": "49d0abc0-15ec-4533-983e-f2cf0320ca23"
+        },
+        {
+          "alterId": 0,
+          "name": "cfb4973d-8b61-48d0-b0d9-95fb4d583654@hiddify.com",
+          "uuid": "cfb4973d-8b61-48d0-b0d9-95fb4d583654"
+        },
+        {
+          "alterId": 0,
+          "name": "fe47abda-99f1-4eb2-9e35-baf9e061d59e@hiddify.com",
+          "uuid": "fe47abda-99f1-4eb2-9e35-baf9e061d59e"
+        },
+        {
+          "alterId": 0,
+          "name": "0a30555e-c8b2-456a-a6a3-e3a983885946@hiddify.com",
+          "uuid": "0a30555e-c8b2-456a-a6a3-e3a983885946"
+        },
+        {
+          "alterId": 0,
+          "name": "00b3ab54-be04-4422-9ddd-ce63f154c635@hiddify.com",
+          "uuid": "00b3ab54-be04-4422-9ddd-ce63f154c635"
+        },
+        {
+          "alterId": 0,
+          "name": "9ce279f3-8953-46b8-a9d5-0d60084dcd19@hiddify.com",
+          "uuid": "9ce279f3-8953-46b8-a9d5-0d60084dcd19"
+        },
+        {
+          "alterId": 0,
+          "name": "94701540-8c79-4d50-9258-600c0fa3e358@hiddify.com",
+          "uuid": "94701540-8c79-4d50-9258-600c0fa3e358"
+        },
+        {
+          "alterId": 0,
+          "name": "7b308456-755c-46db-9436-a135f130fd19@hiddify.com",
+          "uuid": "7b308456-755c-46db-9436-a135f130fd19"
+        },
+        {
+          "alterId": 0,
+          "name": "5cb7a42b-9664-430f-9e4b-2430a04d1cb7@hiddify.com",
+          "uuid": "5cb7a42b-9664-430f-9e4b-2430a04d1cb7"
+        },
+        {
+          "alterId": 0,
+          "name": "05893b60-4e15-4ec3-9e4f-d3f51358402f@hiddify.com",
+          "uuid": "05893b60-4e15-4ec3-9e4f-d3f51358402f"
+        },
+        {
+          "alterId": 0,
+          "name": "bd8d3a6c-9bf7-400e-8287-960021bd92e6@hiddify.com",
+          "uuid": "bd8d3a6c-9bf7-400e-8287-960021bd92e6"
+        },
+        {
+          "alterId": 0,
+          "name": "f6f785cc-eea7-41c9-bed0-661838916b81@hiddify.com",
+          "uuid": "f6f785cc-eea7-41c9-bed0-661838916b81"
+        },
+        {
+          "alterId": 0,
+          "name": "25a2cbac-6c8b-4def-9707-d6e5f9f6abc4@hiddify.com",
+          "uuid": "25a2cbac-6c8b-4def-9707-d6e5f9f6abc4"
+        },
+        {
+          "alterId": 0,
+          "name": "a94d1a86-a84d-4b42-b602-595f2ba735a2@hiddify.com",
+          "uuid": "a94d1a86-a84d-4b42-b602-595f2ba735a2"
+        },
+        {
+          "alterId": 0,
+          "name": "e8fd7557-f51d-4044-942b-4021261605f1@hiddify.com",
+          "uuid": "e8fd7557-f51d-4044-942b-4021261605f1"
+        },
+        {
+          "alterId": 0,
+          "name": "e8f2b9dc-8812-4ccd-bf70-ceb32d634a97@hiddify.com",
+          "uuid": "e8f2b9dc-8812-4ccd-bf70-ceb32d634a97"
+        },
+        {
+          "alterId": 0,
+          "name": "b69a47e6-fa67-472c-9585-732edc8fdd6b@hiddify.com",
+          "uuid": "b69a47e6-fa67-472c-9585-732edc8fdd6b"
+        },
+        {
+          "alterId": 0,
+          "name": "fc5c88a0-9809-45b2-bb47-f26a14ffa65d@hiddify.com",
+          "uuid": "fc5c88a0-9809-45b2-bb47-f26a14ffa65d"
+        },
+        {
+          "alterId": 0,
+          "name": "941a3c13-a9aa-44a2-a29f-35d8849092d0@hiddify.com",
+          "uuid": "941a3c13-a9aa-44a2-a29f-35d8849092d0"
+        },
+        {
+          "alterId": 0,
+          "name": "0bbbd5be-6643-4ea5-adc8-6ff86a0efb65@hiddify.com",
+          "uuid": "0bbbd5be-6643-4ea5-adc8-6ff86a0efb65"
+        },
+        {
+          "alterId": 0,
+          "name": "14436cb5-91ba-4077-8d92-ac5a19c6535e@hiddify.com",
+          "uuid": "14436cb5-91ba-4077-8d92-ac5a19c6535e"
+        },
+        {
+          "alterId": 0,
+          "name": "07671b2b-ae99-4e85-b1fe-a424a5490c9c@hiddify.com",
+          "uuid": "07671b2b-ae99-4e85-b1fe-a424a5490c9c"
+        },
+        {
+          "alterId": 0,
+          "name": "d069bfb6-20ac-43c3-98ec-b5f4971288db@hiddify.com",
+          "uuid": "d069bfb6-20ac-43c3-98ec-b5f4971288db"
+        }
+      ]
+    },
+    {
+      "domain_strategy": "prefer_ipv4",
+      "listen": "127.0.0.1",
+      "listen_port": 5012,
+      "sniff": true,
+      "sniff_override_destination": true,
+      "tag": "v10-vmess-tcp",
+      "tcp_fast_open": true,
+      "transport": {
+        "idle_timeout": "15s",
+        "path": "/userBcoriReVjSeKwLT2B96v16",
+        "ping_timeout": "15s",
+        "type": "http"
+      },
+      "type": "vmess",
+      "users": [
+        {
+          "alterId": 0,
+          "name": "49d0abc0-15ec-4533-983e-f2cf0320ca23@hiddify.com",
+          "uuid": "49d0abc0-15ec-4533-983e-f2cf0320ca23"
+        },
+        {
+          "alterId": 0,
+          "name": "cfb4973d-8b61-48d0-b0d9-95fb4d583654@hiddify.com",
+          "uuid": "cfb4973d-8b61-48d0-b0d9-95fb4d583654"
+        },
+        {
+          "alterId": 0,
+          "name": "fe47abda-99f1-4eb2-9e35-baf9e061d59e@hiddify.com",
+          "uuid": "fe47abda-99f1-4eb2-9e35-baf9e061d59e"
+        },
+        {
+          "alterId": 0,
+          "name": "0a30555e-c8b2-456a-a6a3-e3a983885946@hiddify.com",
+          "uuid": "0a30555e-c8b2-456a-a6a3-e3a983885946"
+        },
+        {
+          "alterId": 0,
+          "name": "00b3ab54-be04-4422-9ddd-ce63f154c635@hiddify.com",
+          "uuid": "00b3ab54-be04-4422-9ddd-ce63f154c635"
+        },
+        {
+          "alterId": 0,
+          "name": "9ce279f3-8953-46b8-a9d5-0d60084dcd19@hiddify.com",
+          "uuid": "9ce279f3-8953-46b8-a9d5-0d60084dcd19"
+        },
+        {
+          "alterId": 0,
+          "name": "94701540-8c79-4d50-9258-600c0fa3e358@hiddify.com",
+          "uuid": "94701540-8c79-4d50-9258-600c0fa3e358"
+        },
+        {
+          "alterId": 0,
+          "name": "7b308456-755c-46db-9436-a135f130fd19@hiddify.com",
+          "uuid": "7b308456-755c-46db-9436-a135f130fd19"
+        },
+        {
+          "alterId": 0,
+          "name": "5cb7a42b-9664-430f-9e4b-2430a04d1cb7@hiddify.com",
+          "uuid": "5cb7a42b-9664-430f-9e4b-2430a04d1cb7"
+        },
+        {
+          "alterId": 0,
+          "name": "05893b60-4e15-4ec3-9e4f-d3f51358402f@hiddify.com",
+          "uuid": "05893b60-4e15-4ec3-9e4f-d3f51358402f"
+        },
+        {
+          "alterId": 0,
+          "name": "bd8d3a6c-9bf7-400e-8287-960021bd92e6@hiddify.com",
+          "uuid": "bd8d3a6c-9bf7-400e-8287-960021bd92e6"
+        },
+        {
+          "alterId": 0,
+          "name": "f6f785cc-eea7-41c9-bed0-661838916b81@hiddify.com",
+          "uuid": "f6f785cc-eea7-41c9-bed0-661838916b81"
+        },
+        {
+          "alterId": 0,
+          "name": "25a2cbac-6c8b-4def-9707-d6e5f9f6abc4@hiddify.com",
+          "uuid": "25a2cbac-6c8b-4def-9707-d6e5f9f6abc4"
+        },
+        {
+          "alterId": 0,
+          "name": "a94d1a86-a84d-4b42-b602-595f2ba735a2@hiddify.com",
+          "uuid": "a94d1a86-a84d-4b42-b602-595f2ba735a2"
+        },
+        {
+          "alterId": 0,
+          "name": "e8fd7557-f51d-4044-942b-4021261605f1@hiddify.com",
+          "uuid": "e8fd7557-f51d-4044-942b-4021261605f1"
+        },
+        {
+          "alterId": 0,
+          "name": "e8f2b9dc-8812-4ccd-bf70-ceb32d634a97@hiddify.com",
+          "uuid": "e8f2b9dc-8812-4ccd-bf70-ceb32d634a97"
+        },
+        {
+          "alterId": 0,
+          "name": "b69a47e6-fa67-472c-9585-732edc8fdd6b@hiddify.com",
+          "uuid": "b69a47e6-fa67-472c-9585-732edc8fdd6b"
+        },
+        {
+          "alterId": 0,
+          "name": "fc5c88a0-9809-45b2-bb47-f26a14ffa65d@hiddify.com",
+          "uuid": "fc5c88a0-9809-45b2-bb47-f26a14ffa65d"
+        },
+        {
+          "alterId": 0,
+          "name": "941a3c13-a9aa-44a2-a29f-35d8849092d0@hiddify.com",
+          "uuid": "941a3c13-a9aa-44a2-a29f-35d8849092d0"
+        },
+        {
+          "alterId": 0,
+          "name": "0bbbd5be-6643-4ea5-adc8-6ff86a0efb65@hiddify.com",
+          "uuid": "0bbbd5be-6643-4ea5-adc8-6ff86a0efb65"
+        },
+        {
+          "alterId": 0,
+          "name": "14436cb5-91ba-4077-8d92-ac5a19c6535e@hiddify.com",
+          "uuid": "14436cb5-91ba-4077-8d92-ac5a19c6535e"
+        },
+        {
+          "alterId": 0,
+          "name": "07671b2b-ae99-4e85-b1fe-a424a5490c9c@hiddify.com",
+          "uuid": "07671b2b-ae99-4e85-b1fe-a424a5490c9c"
+        },
+        {
+          "alterId": 0,
+          "name": "d069bfb6-20ac-43c3-98ec-b5f4971288db@hiddify.com",
+          "uuid": "d069bfb6-20ac-43c3-98ec-b5f4971288db"
+        }
+      ]
+    },
+    {
+      "domain_strategy": "prefer_ipv4",
+      "listen": "127.0.0.1",
+      "listen_port": 5013,
+      "sniff": true,
+      "sniff_override_destination": true,
+      "tag": "v10-vmess-httpupgrade",
+      "tcp_fast_open": true,
+      "transport": {
+        "path": "/filesdfRco5kcMnZfVo5U2GS7NC",
+        "type": "httpupgrade"
+      },
+      "type": "vmess",
+      "users": [
+        {
+          "alterId": 0,
+          "name": "49d0abc0-15ec-4533-983e-f2cf0320ca23@hiddify.com",
+          "uuid": "49d0abc0-15ec-4533-983e-f2cf0320ca23"
+        },
+        {
+          "alterId": 0,
+          "name": "cfb4973d-8b61-48d0-b0d9-95fb4d583654@hiddify.com",
+          "uuid": "cfb4973d-8b61-48d0-b0d9-95fb4d583654"
+        },
+        {
+          "alterId": 0,
+          "name": "fe47abda-99f1-4eb2-9e35-baf9e061d59e@hiddify.com",
+          "uuid": "fe47abda-99f1-4eb2-9e35-baf9e061d59e"
+        },
+        {
+          "alterId": 0,
+          "name": "0a30555e-c8b2-456a-a6a3-e3a983885946@hiddify.com",
+          "uuid": "0a30555e-c8b2-456a-a6a3-e3a983885946"
+        },
+        {
+          "alterId": 0,
+          "name": "00b3ab54-be04-4422-9ddd-ce63f154c635@hiddify.com",
+          "uuid": "00b3ab54-be04-4422-9ddd-ce63f154c635"
+        },
+        {
+          "alterId": 0,
+          "name": "9ce279f3-8953-46b8-a9d5-0d60084dcd19@hiddify.com",
+          "uuid": "9ce279f3-8953-46b8-a9d5-0d60084dcd19"
+        },
+        {
+          "alterId": 0,
+          "name": "94701540-8c79-4d50-9258-600c0fa3e358@hiddify.com",
+          "uuid": "94701540-8c79-4d50-9258-600c0fa3e358"
+        },
+        {
+          "alterId": 0,
+          "name": "7b308456-755c-46db-9436-a135f130fd19@hiddify.com",
+          "uuid": "7b308456-755c-46db-9436-a135f130fd19"
+        },
+        {
+          "alterId": 0,
+          "name": "5cb7a42b-9664-430f-9e4b-2430a04d1cb7@hiddify.com",
+          "uuid": "5cb7a42b-9664-430f-9e4b-2430a04d1cb7"
+        },
+        {
+          "alterId": 0,
+          "name": "05893b60-4e15-4ec3-9e4f-d3f51358402f@hiddify.com",
+          "uuid": "05893b60-4e15-4ec3-9e4f-d3f51358402f"
+        },
+        {
+          "alterId": 0,
+          "name": "bd8d3a6c-9bf7-400e-8287-960021bd92e6@hiddify.com",
+          "uuid": "bd8d3a6c-9bf7-400e-8287-960021bd92e6"
+        },
+        {
+          "alterId": 0,
+          "name": "f6f785cc-eea7-41c9-bed0-661838916b81@hiddify.com",
+          "uuid": "f6f785cc-eea7-41c9-bed0-661838916b81"
+        },
+        {
+          "alterId": 0,
+          "name": "25a2cbac-6c8b-4def-9707-d6e5f9f6abc4@hiddify.com",
+          "uuid": "25a2cbac-6c8b-4def-9707-d6e5f9f6abc4"
+        },
+        {
+          "alterId": 0,
+          "name": "a94d1a86-a84d-4b42-b602-595f2ba735a2@hiddify.com",
+          "uuid": "a94d1a86-a84d-4b42-b602-595f2ba735a2"
+        },
+        {
+          "alterId": 0,
+          "name": "e8fd7557-f51d-4044-942b-4021261605f1@hiddify.com",
+          "uuid": "e8fd7557-f51d-4044-942b-4021261605f1"
+        },
+        {
+          "alterId": 0,
+          "name": "e8f2b9dc-8812-4ccd-bf70-ceb32d634a97@hiddify.com",
+          "uuid": "e8f2b9dc-8812-4ccd-bf70-ceb32d634a97"
+        },
+        {
+          "alterId": 0,
+          "name": "b69a47e6-fa67-472c-9585-732edc8fdd6b@hiddify.com",
+          "uuid": "b69a47e6-fa67-472c-9585-732edc8fdd6b"
+        },
+        {
+          "alterId": 0,
+          "name": "fc5c88a0-9809-45b2-bb47-f26a14ffa65d@hiddify.com",
+          "uuid": "fc5c88a0-9809-45b2-bb47-f26a14ffa65d"
+        },
+        {
+          "alterId": 0,
+          "name": "941a3c13-a9aa-44a2-a29f-35d8849092d0@hiddify.com",
+          "uuid": "941a3c13-a9aa-44a2-a29f-35d8849092d0"
+        },
+        {
+          "alterId": 0,
+          "name": "0bbbd5be-6643-4ea5-adc8-6ff86a0efb65@hiddify.com",
+          "uuid": "0bbbd5be-6643-4ea5-adc8-6ff86a0efb65"
+        },
+        {
+          "alterId": 0,
+          "name": "14436cb5-91ba-4077-8d92-ac5a19c6535e@hiddify.com",
+          "uuid": "14436cb5-91ba-4077-8d92-ac5a19c6535e"
+        },
+        {
+          "alterId": 0,
+          "name": "07671b2b-ae99-4e85-b1fe-a424a5490c9c@hiddify.com",
+          "uuid": "07671b2b-ae99-4e85-b1fe-a424a5490c9c"
+        },
+        {
+          "alterId": 0,
+          "name": "d069bfb6-20ac-43c3-98ec-b5f4971288db@hiddify.com",
+          "uuid": "d069bfb6-20ac-43c3-98ec-b5f4971288db"
+        }
+      ]
+    },
+    {
+      "down_mbps": 300,
+      "listen": "::",
+      "listen_port": 50062,
+      "masquerade": "https://www.microsoft.com:80/",
+      "obfs": {
+        "password": "hbVmLP0q9GKQGUeD7oaUkS",
+        "type": "salamander"
+      },
+      "tag": "hysteria_in_50062",
+      "tls": {
+        "alpn": [
+          "h3"
+        ],
+        "certificate_path": "/opt/ssl/sert.crt",
+        "enabled": true,
+        "key_path": "/opt/ssl/sert.crt.key",
+        "max_version": "1.3",
+        "min_version": "1.2",
+        "server_name": ""
+      },
+      "type": "hysteria2",
+      "up_mbps": 150,
+      "users": [
+        {
+          "name": "49d0abc0-15ec-4533-983e-f2cf0320ca23@hiddify.com",
+          "password": "49d0abc0-15ec-4533-983e-f2cf0320ca23"
+        },
+        {
+          "name": "cfb4973d-8b61-48d0-b0d9-95fb4d583654@hiddify.com",
+          "password": "cfb4973d-8b61-48d0-b0d9-95fb4d583654"
+        },
+        {
+          "name": "fe47abda-99f1-4eb2-9e35-baf9e061d59e@hiddify.com",
+          "password": "fe47abda-99f1-4eb2-9e35-baf9e061d59e"
+        },
+        {
+          "name": "0a30555e-c8b2-456a-a6a3-e3a983885946@hiddify.com",
+          "password": "0a30555e-c8b2-456a-a6a3-e3a983885946"
+        },
+        {
+          "name": "00b3ab54-be04-4422-9ddd-ce63f154c635@hiddify.com",
+          "password": "00b3ab54-be04-4422-9ddd-ce63f154c635"
+        },
+        {
+          "name": "9ce279f3-8953-46b8-a9d5-0d60084dcd19@hiddify.com",
+          "password": "9ce279f3-8953-46b8-a9d5-0d60084dcd19"
+        },
+        {
+          "name": "94701540-8c79-4d50-9258-600c0fa3e358@hiddify.com",
+          "password": "94701540-8c79-4d50-9258-600c0fa3e358"
+        },
+        {
+          "name": "7b308456-755c-46db-9436-a135f130fd19@hiddify.com",
+          "password": "7b308456-755c-46db-9436-a135f130fd19"
+        },
+        {
+          "name": "5cb7a42b-9664-430f-9e4b-2430a04d1cb7@hiddify.com",
+          "password": "5cb7a42b-9664-430f-9e4b-2430a04d1cb7"
+        },
+        {
+          "name": "05893b60-4e15-4ec3-9e4f-d3f51358402f@hiddify.com",
+          "password": "05893b60-4e15-4ec3-9e4f-d3f51358402f"
+        },
+        {
+          "name": "bd8d3a6c-9bf7-400e-8287-960021bd92e6@hiddify.com",
+          "password": "bd8d3a6c-9bf7-400e-8287-960021bd92e6"
+        },
+        {
+          "name": "f6f785cc-eea7-41c9-bed0-661838916b81@hiddify.com",
+          "password": "f6f785cc-eea7-41c9-bed0-661838916b81"
+        },
+        {
+          "name": "25a2cbac-6c8b-4def-9707-d6e5f9f6abc4@hiddify.com",
+          "password": "25a2cbac-6c8b-4def-9707-d6e5f9f6abc4"
+        },
+        {
+          "name": "a94d1a86-a84d-4b42-b602-595f2ba735a2@hiddify.com",
+          "password": "a94d1a86-a84d-4b42-b602-595f2ba735a2"
+        },
+        {
+          "name": "e8fd7557-f51d-4044-942b-4021261605f1@hiddify.com",
+          "password": "e8fd7557-f51d-4044-942b-4021261605f1"
+        },
+        {
+          "name": "e8f2b9dc-8812-4ccd-bf70-ceb32d634a97@hiddify.com",
+          "password": "e8f2b9dc-8812-4ccd-bf70-ceb32d634a97"
+        },
+        {
+          "name": "b69a47e6-fa67-472c-9585-732edc8fdd6b@hiddify.com",
+          "password": "b69a47e6-fa67-472c-9585-732edc8fdd6b"
+        },
+        {
+          "name": "fc5c88a0-9809-45b2-bb47-f26a14ffa65d@hiddify.com",
+          "password": "fc5c88a0-9809-45b2-bb47-f26a14ffa65d"
+        },
+        {
+          "name": "941a3c13-a9aa-44a2-a29f-35d8849092d0@hiddify.com",
+          "password": "941a3c13-a9aa-44a2-a29f-35d8849092d0"
+        },
+        {
+          "name": "0bbbd5be-6643-4ea5-adc8-6ff86a0efb65@hiddify.com",
+          "password": "0bbbd5be-6643-4ea5-adc8-6ff86a0efb65"
+        },
+        {
+          "name": "14436cb5-91ba-4077-8d92-ac5a19c6535e@hiddify.com",
+          "password": "14436cb5-91ba-4077-8d92-ac5a19c6535e"
+        },
+        {
+          "name": "07671b2b-ae99-4e85-b1fe-a424a5490c9c@hiddify.com",
+          "password": "07671b2b-ae99-4e85-b1fe-a424a5490c9c"
+        },
+        {
+          "name": "d069bfb6-20ac-43c3-98ec-b5f4971288db@hiddify.com",
+          "password": "d069bfb6-20ac-43c3-98ec-b5f4971288db"
+        }
+      ]
+    },
+    {
+      "domain_strategy": "prefer_ipv4",
+      "listen": "0.0.0.0",
+      "listen_port": 43124,
+      "sniff": true,
+      "sniff_override_destination": true,
+      "tag": "realityin_43124",
+      "tls": {
+        "enabled": true,
+        "reality": {
+          "enabled": true,
+          "handshake": {
+            "server": "www.apple.com",
+            "server_port": 443
+          },
+          "max_time_difference": "2h",
+          "private_key": "KgbC2vTfudfix4HpQ1chjWQJr7CWS3SHKAwx11OTIDw",
+          "short_id": [
+            "",
+            "ba3f7d16c063b1",
+            "96790453bf9f30",
+            "50db39b9004d69",
+            "49b03af93fc75d",
+            "2b15e246fd47c8",
+            "80a662077daed5",
+            "c85b2ecb282582",
+            "0636c240dba2bd",
+            "689d5c8d516dc4",
+            "9ba6ac5038cc1f",
+            "b19d778ed5845e",
+            "feb253d15cac9c",
+            "19c090eb4ac5b2",
+            "33cada5106fc66",
+            "4f811b41fd5355",
+            "dabf59a5a33d11",
+            "ec63a3426fcf3b",
+            "d6e8efbe033a42",
+            "2fe3ee969f48ee",
+            "1c0d4aa34020dc",
+            "000c3e193c8eb9",
+            "a79f17a1c8765c",
+            "e0ef91190e67ca"
+          ]
+        },
+        "server_name": "www.apple.com"
+      },
+      "transport": {},
+      "type": "vless",
+      "users": [
+        {
+          "flow": "xtls-rprx-vision",
+          "name": "49d0abc0-15ec-4533-983e-f2cf0320ca23@hiddify.com",
+          "uuid": "49d0abc0-15ec-4533-983e-f2cf0320ca23"
+        },
+        {
+          "flow": "xtls-rprx-vision",
+          "name": "cfb4973d-8b61-48d0-b0d9-95fb4d583654@hiddify.com",
+          "uuid": "cfb4973d-8b61-48d0-b0d9-95fb4d583654"
+        },
+        {
+          "flow": "xtls-rprx-vision",
+          "name": "fe47abda-99f1-4eb2-9e35-baf9e061d59e@hiddify.com",
+          "uuid": "fe47abda-99f1-4eb2-9e35-baf9e061d59e"
+        },
+        {
+          "flow": "xtls-rprx-vision",
+          "name": "0a30555e-c8b2-456a-a6a3-e3a983885946@hiddify.com",
+          "uuid": "0a30555e-c8b2-456a-a6a3-e3a983885946"
+        },
+        {
+          "flow": "xtls-rprx-vision",
+          "name": "00b3ab54-be04-4422-9ddd-ce63f154c635@hiddify.com",
+          "uuid": "00b3ab54-be04-4422-9ddd-ce63f154c635"
+        },
+        {
+          "flow": "xtls-rprx-vision",
+          "name": "9ce279f3-8953-46b8-a9d5-0d60084dcd19@hiddify.com",
+          "uuid": "9ce279f3-8953-46b8-a9d5-0d60084dcd19"
+        },
+        {
+          "flow": "xtls-rprx-vision",
+          "name": "94701540-8c79-4d50-9258-600c0fa3e358@hiddify.com",
+          "uuid": "94701540-8c79-4d50-9258-600c0fa3e358"
+        },
+        {
+          "flow": "xtls-rprx-vision",
+          "name": "7b308456-755c-46db-9436-a135f130fd19@hiddify.com",
+          "uuid": "7b308456-755c-46db-9436-a135f130fd19"
+        },
+        {
+          "flow": "xtls-rprx-vision",
+          "name": "5cb7a42b-9664-430f-9e4b-2430a04d1cb7@hiddify.com",
+          "uuid": "5cb7a42b-9664-430f-9e4b-2430a04d1cb7"
+        },
+        {
+          "flow": "xtls-rprx-vision",
+          "name": "05893b60-4e15-4ec3-9e4f-d3f51358402f@hiddify.com",
+          "uuid": "05893b60-4e15-4ec3-9e4f-d3f51358402f"
+        },
+        {
+          "flow": "xtls-rprx-vision",
+          "name": "bd8d3a6c-9bf7-400e-8287-960021bd92e6@hiddify.com",
+          "uuid": "bd8d3a6c-9bf7-400e-8287-960021bd92e6"
+        },
+        {
+          "flow": "xtls-rprx-vision",
+          "name": "f6f785cc-eea7-41c9-bed0-661838916b81@hiddify.com",
+          "uuid": "f6f785cc-eea7-41c9-bed0-661838916b81"
+        },
+        {
+          "flow": "xtls-rprx-vision",
+          "name": "25a2cbac-6c8b-4def-9707-d6e5f9f6abc4@hiddify.com",
+          "uuid": "25a2cbac-6c8b-4def-9707-d6e5f9f6abc4"
+        },
+        {
+          "flow": "xtls-rprx-vision",
+          "name": "a94d1a86-a84d-4b42-b602-595f2ba735a2@hiddify.com",
+          "uuid": "a94d1a86-a84d-4b42-b602-595f2ba735a2"
+        },
+        {
+          "flow": "xtls-rprx-vision",
+          "name": "e8fd7557-f51d-4044-942b-4021261605f1@hiddify.com",
+          "uuid": "e8fd7557-f51d-4044-942b-4021261605f1"
+        },
+        {
+          "flow": "xtls-rprx-vision",
+          "name": "e8f2b9dc-8812-4ccd-bf70-ceb32d634a97@hiddify.com",
+          "uuid": "e8f2b9dc-8812-4ccd-bf70-ceb32d634a97"
+        },
+        {
+          "flow": "xtls-rprx-vision",
+          "name": "b69a47e6-fa67-472c-9585-732edc8fdd6b@hiddify.com",
+          "uuid": "b69a47e6-fa67-472c-9585-732edc8fdd6b"
+        },
+        {
+          "flow": "xtls-rprx-vision",
+          "name": "fc5c88a0-9809-45b2-bb47-f26a14ffa65d@hiddify.com",
+          "uuid": "fc5c88a0-9809-45b2-bb47-f26a14ffa65d"
+        },
+        {
+          "flow": "xtls-rprx-vision",
+          "name": "941a3c13-a9aa-44a2-a29f-35d8849092d0@hiddify.com",
+          "uuid": "941a3c13-a9aa-44a2-a29f-35d8849092d0"
+        },
+        {
+          "flow": "xtls-rprx-vision",
+          "name": "0bbbd5be-6643-4ea5-adc8-6ff86a0efb65@hiddify.com",
+          "uuid": "0bbbd5be-6643-4ea5-adc8-6ff86a0efb65"
+        },
+        {
+          "flow": "xtls-rprx-vision",
+          "name": "14436cb5-91ba-4077-8d92-ac5a19c6535e@hiddify.com",
+          "uuid": "14436cb5-91ba-4077-8d92-ac5a19c6535e"
+        },
+        {
+          "flow": "xtls-rprx-vision",
+          "name": "07671b2b-ae99-4e85-b1fe-a424a5490c9c@hiddify.com",
+          "uuid": "07671b2b-ae99-4e85-b1fe-a424a5490c9c"
+        },
+        {
+          "flow": "xtls-rprx-vision",
+          "name": "d069bfb6-20ac-43c3-98ec-b5f4971288db@hiddify.com",
+          "uuid": "d069bfb6-20ac-43c3-98ec-b5f4971288db"
+        }
+      ]
+    },
+    {
+      "domain_strategy": "prefer_ipv4",
+      "listen": "::",
+      "listen_port": 44405,
+      "method": "2022-blake3-aes-256-gcm",
+      "password": "QKFZD9RUw52fT4tluVHxj6LRrMlSe3x/cqiNQkRPpQA=",
+      "sniff": true,
+      "sniff_override_destination": true,
+      "tag": "ss-new",
+      "tcp_fast_open": true,
+      "type": "shadowsocks",
+      "users": [
+        {
+          "name": "49d0abc0-15ec-4533-983e-f2cf0320ca23@hiddify.com",
+          "password": "yfUmu78NXGzPd7cp+YXZZabAEjms5p1OpbImiwFel/8="
+        },
+        {
+          "name": "cfb4973d-8b61-48d0-b0d9-95fb4d583654@hiddify.com",
+          "password": "hlJfVq5wDR2oEi0AaGX/Ofd5C3rnFVR6LOWfbGAL/uA="
+        },
+        {
+          "name": "fe47abda-99f1-4eb2-9e35-baf9e061d59e@hiddify.com",
+          "password": "RMoVCl0HnjGAmsm8jNY7Cw/kON7y+zbYTo+eHu4qdHA="
+        },
+        {
+          "name": "0a30555e-c8b2-456a-a6a3-e3a983885946@hiddify.com",
+          "password": "NpkHiRPxGtOib302Ew8hr0xptM8Tm4kOqhj+8/8tyP0="
+        },
+        {
+          "name": "00b3ab54-be04-4422-9ddd-ce63f154c635@hiddify.com",
+          "password": "if1EXGDxrTx5YWf+ytt/82epAbOll1wPFaY5dgJm+lQ="
+        },
+        {
+          "name": "9ce279f3-8953-46b8-a9d5-0d60084dcd19@hiddify.com",
+          "password": "xQt6wreAe7N61yXmoYcVuxa245sywfcDjReqnpXYn98="
+        },
+        {
+          "name": "94701540-8c79-4d50-9258-600c0fa3e358@hiddify.com",
+          "password": "fZj6JkEM9kMBCLJahkY4OF9m1TTNatZEFmHwIDM2eOo="
+        },
+        {
+          "name": "7b308456-755c-46db-9436-a135f130fd19@hiddify.com",
+          "password": "QFsfhrB5nF0oNrxSag+yqC1X2mLko8IiAbdXfsMiPCk="
+        },
+        {
+          "name": "5cb7a42b-9664-430f-9e4b-2430a04d1cb7@hiddify.com",
+          "password": "qbJE21J6mzQ2eUejsIbaj3kkjqlLha6UxpxwKPJXkmo="
+        },
+        {
+          "name": "05893b60-4e15-4ec3-9e4f-d3f51358402f@hiddify.com",
+          "password": "KwadUS4+6aQ2R75+g8Y5r0WDDKgj0ganLbakt8mOzRg="
+        },
+        {
+          "name": "bd8d3a6c-9bf7-400e-8287-960021bd92e6@hiddify.com",
+          "password": "Cq6i0NOunDmFRwZXWb2rOHwpwl5lAgj4uIKMeSjWfJo="
+        },
+        {
+          "name": "f6f785cc-eea7-41c9-bed0-661838916b81@hiddify.com",
+          "password": "6AxGM2SkEXSIkgiO2CJgyE8CoOhUdjnBoZWbCmtydVU="
+        },
+        {
+          "name": "25a2cbac-6c8b-4def-9707-d6e5f9f6abc4@hiddify.com",
+          "password": "YrQHBefhpXb6ktBWDZ4NSYLZlDerhNyN7ScnSuDDfqk="
+        },
+        {
+          "name": "a94d1a86-a84d-4b42-b602-595f2ba735a2@hiddify.com",
+          "password": "EPBMRuYtfWn7aFD5ETNsRf0hfamkOBAQ8Lblzc30nzI="
+        },
+        {
+          "name": "e8fd7557-f51d-4044-942b-4021261605f1@hiddify.com",
+          "password": "dSe7jgYCt9cHJOtMAsJ9wHKOPvtuliGAcTCyj1pzfH0="
+        },
+        {
+          "name": "e8f2b9dc-8812-4ccd-bf70-ceb32d634a97@hiddify.com",
+          "password": "8iuT819eeZrCNAm/RImM1+Ni77ul1UsRI3+r/3HdOxo="
+        },
+        {
+          "name": "b69a47e6-fa67-472c-9585-732edc8fdd6b@hiddify.com",
+          "password": "Pap1T9nY6froyOaEE6zagOYCeNhLcbCTHBPs18JqEcc="
+        },
+        {
+          "name": "fc5c88a0-9809-45b2-bb47-f26a14ffa65d@hiddify.com",
+          "password": "FDby4dIDa9KCFt1YiG8t/H5WfgfQgj2fbwtdmMWGACM="
+        },
+        {
+          "name": "941a3c13-a9aa-44a2-a29f-35d8849092d0@hiddify.com",
+          "password": "iw4yGLaylHliR6Qa3fVGkxq75CikRzqKZ2idF+HezKg="
+        },
+        {
+          "name": "0bbbd5be-6643-4ea5-adc8-6ff86a0efb65@hiddify.com",
+          "password": "/B/EVyNwMoxvZrzZeRPqC+KJuDbqqCCSbvb+J4pkCmQ="
+        },
+        {
+          "name": "14436cb5-91ba-4077-8d92-ac5a19c6535e@hiddify.com",
+          "password": "LvB/ex7hZ7IZismOf0aeBUokHx6g82irx7HlCgsuNQE="
+        },
+        {
+          "name": "07671b2b-ae99-4e85-b1fe-a424a5490c9c@hiddify.com",
+          "password": "l7NkzbRwhz+4SQzaFIl3vDfTN8CfwrYZR2ip12VMpkA="
+        },
+        {
+          "name": "d069bfb6-20ac-43c3-98ec-b5f4971288db@hiddify.com",
+          "password": "YqHP6EwS/aySNTJEAoKoTro9y84BMyD4vO8CAUggM94="
+        }
+      ]
+    },
+    {
+      "detour": "ss-new",
+      "handshake": {
+        "server": "www.google.com",
+        "server_port": 443
+      },
+      "listen": "127.0.0.1",
+      "listen_port": 1030,
+      "sniff": true,
+      "sniff_override_destination": true,
+      "tag": "shadowtls",
+      "tcp_fast_open": true,
+      "type": "shadowtls",
+      "users": [
+        {
+          "password": "49d0abc0-15ec-4533-983e-f2cf0320ca23"
+        },
+        {
+          "password": "cfb4973d-8b61-48d0-b0d9-95fb4d583654"
+        },
+        {
+          "password": "fe47abda-99f1-4eb2-9e35-baf9e061d59e"
+        },
+        {
+          "password": "0a30555e-c8b2-456a-a6a3-e3a983885946"
+        },
+        {
+          "password": "00b3ab54-be04-4422-9ddd-ce63f154c635"
+        },
+        {
+          "password": "9ce279f3-8953-46b8-a9d5-0d60084dcd19"
+        },
+        {
+          "password": "94701540-8c79-4d50-9258-600c0fa3e358"
+        },
+        {
+          "password": "7b308456-755c-46db-9436-a135f130fd19"
+        },
+        {
+          "password": "5cb7a42b-9664-430f-9e4b-2430a04d1cb7"
+        },
+        {
+          "password": "05893b60-4e15-4ec3-9e4f-d3f51358402f"
+        },
+        {
+          "password": "bd8d3a6c-9bf7-400e-8287-960021bd92e6"
+        },
+        {
+          "password": "f6f785cc-eea7-41c9-bed0-661838916b81"
+        },
+        {
+          "password": "25a2cbac-6c8b-4def-9707-d6e5f9f6abc4"
+        },
+        {
+          "password": "a94d1a86-a84d-4b42-b602-595f2ba735a2"
+        },
+        {
+          "password": "e8fd7557-f51d-4044-942b-4021261605f1"
+        },
+        {
+          "password": "e8f2b9dc-8812-4ccd-bf70-ceb32d634a97"
+        },
+        {
+          "password": "b69a47e6-fa67-472c-9585-732edc8fdd6b"
+        },
+        {
+          "password": "fc5c88a0-9809-45b2-bb47-f26a14ffa65d"
+        },
+        {
+          "password": "941a3c13-a9aa-44a2-a29f-35d8849092d0"
+        },
+        {
+          "password": "0bbbd5be-6643-4ea5-adc8-6ff86a0efb65"
+        },
+        {
+          "password": "14436cb5-91ba-4077-8d92-ac5a19c6535e"
+        },
+        {
+          "password": "07671b2b-ae99-4e85-b1fe-a424a5490c9c"
+        },
+        {
+          "password": "d069bfb6-20ac-43c3-98ec-b5f4971288db"
+        }
+      ],
+      "version": 3
+    },
+    {
+      "domain_strategy": "prefer_ipv4",
+      "listen": "127.0.0.1",
+      "listen_port": 5022,
+      "sniff": true,
+      "sniff_override_destination": true,
+      "tag": "v10-trojan-tcp",
+      "tcp_fast_open": true,
+      "transport": {
+        "idle_timeout": "15s",
+        "path": "/user85aiMmSw1gsBWhVitSPd2r",
+        "ping_timeout": "15s",
+        "type": "http"
+      },
+      "type": "trojan",
+      "users": [
+        {
+          "name": "49d0abc0-15ec-4533-983e-f2cf0320ca23@hiddify.com",
+          "password": "49d0abc0-15ec-4533-983e-f2cf0320ca23"
+        },
+        {
+          "name": "cfb4973d-8b61-48d0-b0d9-95fb4d583654@hiddify.com",
+          "password": "cfb4973d-8b61-48d0-b0d9-95fb4d583654"
+        },
+        {
+          "name": "fe47abda-99f1-4eb2-9e35-baf9e061d59e@hiddify.com",
+          "password": "fe47abda-99f1-4eb2-9e35-baf9e061d59e"
+        },
+        {
+          "name": "0a30555e-c8b2-456a-a6a3-e3a983885946@hiddify.com",
+          "password": "0a30555e-c8b2-456a-a6a3-e3a983885946"
+        },
+        {
+          "name": "00b3ab54-be04-4422-9ddd-ce63f154c635@hiddify.com",
+          "password": "00b3ab54-be04-4422-9ddd-ce63f154c635"
+        },
+        {
+          "name": "9ce279f3-8953-46b8-a9d5-0d60084dcd19@hiddify.com",
+          "password": "9ce279f3-8953-46b8-a9d5-0d60084dcd19"
+        },
+        {
+          "name": "94701540-8c79-4d50-9258-600c0fa3e358@hiddify.com",
+          "password": "94701540-8c79-4d50-9258-600c0fa3e358"
+        },
+        {
+          "name": "7b308456-755c-46db-9436-a135f130fd19@hiddify.com",
+          "password": "7b308456-755c-46db-9436-a135f130fd19"
+        },
+        {
+          "name": "5cb7a42b-9664-430f-9e4b-2430a04d1cb7@hiddify.com",
+          "password": "5cb7a42b-9664-430f-9e4b-2430a04d1cb7"
+        },
+        {
+          "name": "05893b60-4e15-4ec3-9e4f-d3f51358402f@hiddify.com",
+          "password": "05893b60-4e15-4ec3-9e4f-d3f51358402f"
+        },
+        {
+          "name": "bd8d3a6c-9bf7-400e-8287-960021bd92e6@hiddify.com",
+          "password": "bd8d3a6c-9bf7-400e-8287-960021bd92e6"
+        },
+        {
+          "name": "f6f785cc-eea7-41c9-bed0-661838916b81@hiddify.com",
+          "password": "f6f785cc-eea7-41c9-bed0-661838916b81"
+        },
+        {
+          "name": "25a2cbac-6c8b-4def-9707-d6e5f9f6abc4@hiddify.com",
+          "password": "25a2cbac-6c8b-4def-9707-d6e5f9f6abc4"
+        },
+        {
+          "name": "a94d1a86-a84d-4b42-b602-595f2ba735a2@hiddify.com",
+          "password": "a94d1a86-a84d-4b42-b602-595f2ba735a2"
+        },
+        {
+          "name": "e8fd7557-f51d-4044-942b-4021261605f1@hiddify.com",
+          "password": "e8fd7557-f51d-4044-942b-4021261605f1"
+        },
+        {
+          "name": "e8f2b9dc-8812-4ccd-bf70-ceb32d634a97@hiddify.com",
+          "password": "e8f2b9dc-8812-4ccd-bf70-ceb32d634a97"
+        },
+        {
+          "name": "b69a47e6-fa67-472c-9585-732edc8fdd6b@hiddify.com",
+          "password": "b69a47e6-fa67-472c-9585-732edc8fdd6b"
+        },
+        {
+          "name": "fc5c88a0-9809-45b2-bb47-f26a14ffa65d@hiddify.com",
+          "password": "fc5c88a0-9809-45b2-bb47-f26a14ffa65d"
+        },
+        {
+          "name": "941a3c13-a9aa-44a2-a29f-35d8849092d0@hiddify.com",
+          "password": "941a3c13-a9aa-44a2-a29f-35d8849092d0"
+        },
+        {
+          "name": "0bbbd5be-6643-4ea5-adc8-6ff86a0efb65@hiddify.com",
+          "password": "0bbbd5be-6643-4ea5-adc8-6ff86a0efb65"
+        },
+        {
+          "name": "14436cb5-91ba-4077-8d92-ac5a19c6535e@hiddify.com",
+          "password": "14436cb5-91ba-4077-8d92-ac5a19c6535e"
+        },
+        {
+          "name": "07671b2b-ae99-4e85-b1fe-a424a5490c9c@hiddify.com",
+          "password": "07671b2b-ae99-4e85-b1fe-a424a5490c9c"
+        },
+        {
+          "name": "d069bfb6-20ac-43c3-98ec-b5f4971288db@hiddify.com",
+          "password": "d069bfb6-20ac-43c3-98ec-b5f4971288db"
+        }
+      ]
+    },
+    {
+      "auth_timeout": "3s",
+      "congestion_control": "cubic",
+      "domain_strategy": "prefer_ipv4",
+      "heartbeat": "10s",
+      "listen": "::",
+      "listen_port": 55851,
+      "sniff": true,
+      "sniff_override_destination": true,
+      "tag": "tuic_in_55851",
+      "tcp_fast_open": true,
+      "tls": {
+        "alpn": [
+          "h3"
+        ],
+        "certificate_path": "/opt/ssl/sert.crt",
+        "enabled": true,
+        "key_path": "/opt/ssl/sert.crt.key",
+        "max_version": "1.3",
+        "min_version": "1.2",
+        "server_name": ""
+      },
+      "type": "tuic",
+      "users": [
+        {
+          "name": "49d0abc0-15ec-4533-983e-f2cf0320ca23@hiddify.com",
+          "password": "yfUmu78NXGzPd7cp+YXZZabAEjms5p1OpbImiwFel/8=",
+          "uuid": "49d0abc0-15ec-4533-983e-f2cf0320ca23"
+        },
+        {
+          "name": "cfb4973d-8b61-48d0-b0d9-95fb4d583654@hiddify.com",
+          "password": "hlJfVq5wDR2oEi0AaGX/Ofd5C3rnFVR6LOWfbGAL/uA=",
+          "uuid": "cfb4973d-8b61-48d0-b0d9-95fb4d583654"
+        },
+        {
+          "name": "fe47abda-99f1-4eb2-9e35-baf9e061d59e@hiddify.com",
+          "password": "RMoVCl0HnjGAmsm8jNY7Cw/kON7y+zbYTo+eHu4qdHA=",
+          "uuid": "fe47abda-99f1-4eb2-9e35-baf9e061d59e"
+        },
+        {
+          "name": "0a30555e-c8b2-456a-a6a3-e3a983885946@hiddify.com",
+          "password": "NpkHiRPxGtOib302Ew8hr0xptM8Tm4kOqhj+8/8tyP0=",
+          "uuid": "0a30555e-c8b2-456a-a6a3-e3a983885946"
+        },
+        {
+          "name": "00b3ab54-be04-4422-9ddd-ce63f154c635@hiddify.com",
+          "password": "if1EXGDxrTx5YWf+ytt/82epAbOll1wPFaY5dgJm+lQ=",
+          "uuid": "00b3ab54-be04-4422-9ddd-ce63f154c635"
+        },
+        {
+          "name": "9ce279f3-8953-46b8-a9d5-0d60084dcd19@hiddify.com",
+          "password": "xQt6wreAe7N61yXmoYcVuxa245sywfcDjReqnpXYn98=",
+          "uuid": "9ce279f3-8953-46b8-a9d5-0d60084dcd19"
+        },
+        {
+          "name": "94701540-8c79-4d50-9258-600c0fa3e358@hiddify.com",
+          "password": "fZj6JkEM9kMBCLJahkY4OF9m1TTNatZEFmHwIDM2eOo=",
+          "uuid": "94701540-8c79-4d50-9258-600c0fa3e358"
+        },
+        {
+          "name": "7b308456-755c-46db-9436-a135f130fd19@hiddify.com",
+          "password": "QFsfhrB5nF0oNrxSag+yqC1X2mLko8IiAbdXfsMiPCk=",
+          "uuid": "7b308456-755c-46db-9436-a135f130fd19"
+        },
+        {
+          "name": "5cb7a42b-9664-430f-9e4b-2430a04d1cb7@hiddify.com",
+          "password": "qbJE21J6mzQ2eUejsIbaj3kkjqlLha6UxpxwKPJXkmo=",
+          "uuid": "5cb7a42b-9664-430f-9e4b-2430a04d1cb7"
+        },
+        {
+          "name": "05893b60-4e15-4ec3-9e4f-d3f51358402f@hiddify.com",
+          "password": "KwadUS4+6aQ2R75+g8Y5r0WDDKgj0ganLbakt8mOzRg=",
+          "uuid": "05893b60-4e15-4ec3-9e4f-d3f51358402f"
+        },
+        {
+          "name": "bd8d3a6c-9bf7-400e-8287-960021bd92e6@hiddify.com",
+          "password": "Cq6i0NOunDmFRwZXWb2rOHwpwl5lAgj4uIKMeSjWfJo=",
+          "uuid": "bd8d3a6c-9bf7-400e-8287-960021bd92e6"
+        },
+        {
+          "name": "f6f785cc-eea7-41c9-bed0-661838916b81@hiddify.com",
+          "password": "6AxGM2SkEXSIkgiO2CJgyE8CoOhUdjnBoZWbCmtydVU=",
+          "uuid": "f6f785cc-eea7-41c9-bed0-661838916b81"
+        },
+        {
+          "name": "25a2cbac-6c8b-4def-9707-d6e5f9f6abc4@hiddify.com",
+          "password": "YrQHBefhpXb6ktBWDZ4NSYLZlDerhNyN7ScnSuDDfqk=",
+          "uuid": "25a2cbac-6c8b-4def-9707-d6e5f9f6abc4"
+        },
+        {
+          "name": "a94d1a86-a84d-4b42-b602-595f2ba735a2@hiddify.com",
+          "password": "EPBMRuYtfWn7aFD5ETNsRf0hfamkOBAQ8Lblzc30nzI=",
+          "uuid": "a94d1a86-a84d-4b42-b602-595f2ba735a2"
+        },
+        {
+          "name": "e8fd7557-f51d-4044-942b-4021261605f1@hiddify.com",
+          "password": "dSe7jgYCt9cHJOtMAsJ9wHKOPvtuliGAcTCyj1pzfH0=",
+          "uuid": "e8fd7557-f51d-4044-942b-4021261605f1"
+        },
+        {
+          "name": "e8f2b9dc-8812-4ccd-bf70-ceb32d634a97@hiddify.com",
+          "password": "8iuT819eeZrCNAm/RImM1+Ni77ul1UsRI3+r/3HdOxo=",
+          "uuid": "e8f2b9dc-8812-4ccd-bf70-ceb32d634a97"
+        },
+        {
+          "name": "b69a47e6-fa67-472c-9585-732edc8fdd6b@hiddify.com",
+          "password": "Pap1T9nY6froyOaEE6zagOYCeNhLcbCTHBPs18JqEcc=",
+          "uuid": "b69a47e6-fa67-472c-9585-732edc8fdd6b"
+        },
+        {
+          "name": "fc5c88a0-9809-45b2-bb47-f26a14ffa65d@hiddify.com",
+          "password": "FDby4dIDa9KCFt1YiG8t/H5WfgfQgj2fbwtdmMWGACM=",
+          "uuid": "fc5c88a0-9809-45b2-bb47-f26a14ffa65d"
+        },
+        {
+          "name": "941a3c13-a9aa-44a2-a29f-35d8849092d0@hiddify.com",
+          "password": "iw4yGLaylHliR6Qa3fVGkxq75CikRzqKZ2idF+HezKg=",
+          "uuid": "941a3c13-a9aa-44a2-a29f-35d8849092d0"
+        },
+        {
+          "name": "0bbbd5be-6643-4ea5-adc8-6ff86a0efb65@hiddify.com",
+          "password": "/B/EVyNwMoxvZrzZeRPqC+KJuDbqqCCSbvb+J4pkCmQ=",
+          "uuid": "0bbbd5be-6643-4ea5-adc8-6ff86a0efb65"
+        },
+        {
+          "name": "14436cb5-91ba-4077-8d92-ac5a19c6535e@hiddify.com",
+          "password": "LvB/ex7hZ7IZismOf0aeBUokHx6g82irx7HlCgsuNQE=",
+          "uuid": "14436cb5-91ba-4077-8d92-ac5a19c6535e"
+        },
+        {
+          "name": "07671b2b-ae99-4e85-b1fe-a424a5490c9c@hiddify.com",
+          "password": "l7NkzbRwhz+4SQzaFIl3vDfTN8CfwrYZR2ip12VMpkA=",
+          "uuid": "07671b2b-ae99-4e85-b1fe-a424a5490c9c"
+        },
+        {
+          "name": "d069bfb6-20ac-43c3-98ec-b5f4971288db@hiddify.com",
+          "password": "YqHP6EwS/aySNTJEAoKoTro9y84BMyD4vO8CAUggM94=",
+          "uuid": "d069bfb6-20ac-43c3-98ec-b5f4971288db"
+        }
+      ],
+      "zero_rtt_handshake": true
+    },
+    {
+      "domain_strategy": "prefer_ipv4",
+      "listen": "127.0.0.1",
+      "listen_port": 5020,
+      "sniff": true,
+      "sniff_override_destination": true,
+      "tag": "v10-trojan-ws",
+      "tcp_fast_open": true,
+      "transport": {
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "path": "/assetsg2zJO6NJywByd6MRnIEevq",
+        "type": "ws"
+      },
+      "type": "trojan",
+      "users": [
+        {
+          "name": "49d0abc0-15ec-4533-983e-f2cf0320ca23@hiddify.com",
+          "password": "49d0abc0-15ec-4533-983e-f2cf0320ca23"
+        },
+        {
+          "name": "cfb4973d-8b61-48d0-b0d9-95fb4d583654@hiddify.com",
+          "password": "cfb4973d-8b61-48d0-b0d9-95fb4d583654"
+        },
+        {
+          "name": "fe47abda-99f1-4eb2-9e35-baf9e061d59e@hiddify.com",
+          "password": "fe47abda-99f1-4eb2-9e35-baf9e061d59e"
+        },
+        {
+          "name": "0a30555e-c8b2-456a-a6a3-e3a983885946@hiddify.com",
+          "password": "0a30555e-c8b2-456a-a6a3-e3a983885946"
+        },
+        {
+          "name": "00b3ab54-be04-4422-9ddd-ce63f154c635@hiddify.com",
+          "password": "00b3ab54-be04-4422-9ddd-ce63f154c635"
+        },
+        {
+          "name": "9ce279f3-8953-46b8-a9d5-0d60084dcd19@hiddify.com",
+          "password": "9ce279f3-8953-46b8-a9d5-0d60084dcd19"
+        },
+        {
+          "name": "94701540-8c79-4d50-9258-600c0fa3e358@hiddify.com",
+          "password": "94701540-8c79-4d50-9258-600c0fa3e358"
+        },
+        {
+          "name": "7b308456-755c-46db-9436-a135f130fd19@hiddify.com",
+          "password": "7b308456-755c-46db-9436-a135f130fd19"
+        },
+        {
+          "name": "5cb7a42b-9664-430f-9e4b-2430a04d1cb7@hiddify.com",
+          "password": "5cb7a42b-9664-430f-9e4b-2430a04d1cb7"
+        },
+        {
+          "name": "05893b60-4e15-4ec3-9e4f-d3f51358402f@hiddify.com",
+          "password": "05893b60-4e15-4ec3-9e4f-d3f51358402f"
+        },
+        {
+          "name": "bd8d3a6c-9bf7-400e-8287-960021bd92e6@hiddify.com",
+          "password": "bd8d3a6c-9bf7-400e-8287-960021bd92e6"
+        },
+        {
+          "name": "f6f785cc-eea7-41c9-bed0-661838916b81@hiddify.com",
+          "password": "f6f785cc-eea7-41c9-bed0-661838916b81"
+        },
+        {
+          "name": "25a2cbac-6c8b-4def-9707-d6e5f9f6abc4@hiddify.com",
+          "password": "25a2cbac-6c8b-4def-9707-d6e5f9f6abc4"
+        },
+        {
+          "name": "a94d1a86-a84d-4b42-b602-595f2ba735a2@hiddify.com",
+          "password": "a94d1a86-a84d-4b42-b602-595f2ba735a2"
+        },
+        {
+          "name": "e8fd7557-f51d-4044-942b-4021261605f1@hiddify.com",
+          "password": "e8fd7557-f51d-4044-942b-4021261605f1"
+        },
+        {
+          "name": "e8f2b9dc-8812-4ccd-bf70-ceb32d634a97@hiddify.com",
+          "password": "e8f2b9dc-8812-4ccd-bf70-ceb32d634a97"
+        },
+        {
+          "name": "b69a47e6-fa67-472c-9585-732edc8fdd6b@hiddify.com",
+          "password": "b69a47e6-fa67-472c-9585-732edc8fdd6b"
+        },
+        {
+          "name": "fc5c88a0-9809-45b2-bb47-f26a14ffa65d@hiddify.com",
+          "password": "fc5c88a0-9809-45b2-bb47-f26a14ffa65d"
+        },
+        {
+          "name": "941a3c13-a9aa-44a2-a29f-35d8849092d0@hiddify.com",
+          "password": "941a3c13-a9aa-44a2-a29f-35d8849092d0"
+        },
+        {
+          "name": "0bbbd5be-6643-4ea5-adc8-6ff86a0efb65@hiddify.com",
+          "password": "0bbbd5be-6643-4ea5-adc8-6ff86a0efb65"
+        },
+        {
+          "name": "14436cb5-91ba-4077-8d92-ac5a19c6535e@hiddify.com",
+          "password": "14436cb5-91ba-4077-8d92-ac5a19c6535e"
+        },
+        {
+          "name": "07671b2b-ae99-4e85-b1fe-a424a5490c9c@hiddify.com",
+          "password": "07671b2b-ae99-4e85-b1fe-a424a5490c9c"
+        },
+        {
+          "name": "d069bfb6-20ac-43c3-98ec-b5f4971288db@hiddify.com",
+          "password": "d069bfb6-20ac-43c3-98ec-b5f4971288db"
+        }
+      ]
+    },
+    {
+      "domain_strategy": "prefer_ipv4",
+      "listen": "127.0.0.1",
+      "listen_port": 5000,
+      "sniff": true,
+      "sniff_override_destination": true,
+      "tag": "v10-vless-ws",
+      "tcp_fast_open": true,
+      "transport": {
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "path": "/assetsgyvKZVPJLv7CVHFuqOKmSF",
+        "type": "ws"
+      },
+      "type": "vless",
+      "users": [
+        {},
+        {
+          "flow": "",
+          "name": "49d0abc0-15ec-4533-983e-f2cf0320ca23@hiddify.com",
+          "uuid": "49d0abc0-15ec-4533-983e-f2cf0320ca23"
+        },
+        {
+          "flow": "",
+          "name": "cfb4973d-8b61-48d0-b0d9-95fb4d583654@hiddify.com",
+          "uuid": "cfb4973d-8b61-48d0-b0d9-95fb4d583654"
+        },
+        {
+          "flow": "",
+          "name": "fe47abda-99f1-4eb2-9e35-baf9e061d59e@hiddify.com",
+          "uuid": "fe47abda-99f1-4eb2-9e35-baf9e061d59e"
+        },
+        {
+          "flow": "",
+          "name": "0a30555e-c8b2-456a-a6a3-e3a983885946@hiddify.com",
+          "uuid": "0a30555e-c8b2-456a-a6a3-e3a983885946"
+        },
+        {
+          "flow": "",
+          "name": "00b3ab54-be04-4422-9ddd-ce63f154c635@hiddify.com",
+          "uuid": "00b3ab54-be04-4422-9ddd-ce63f154c635"
+        },
+        {
+          "flow": "",
+          "name": "9ce279f3-8953-46b8-a9d5-0d60084dcd19@hiddify.com",
+          "uuid": "9ce279f3-8953-46b8-a9d5-0d60084dcd19"
+        },
+        {
+          "flow": "",
+          "name": "94701540-8c79-4d50-9258-600c0fa3e358@hiddify.com",
+          "uuid": "94701540-8c79-4d50-9258-600c0fa3e358"
+        },
+        {
+          "flow": "",
+          "name": "7b308456-755c-46db-9436-a135f130fd19@hiddify.com",
+          "uuid": "7b308456-755c-46db-9436-a135f130fd19"
+        },
+        {
+          "flow": "",
+          "name": "5cb7a42b-9664-430f-9e4b-2430a04d1cb7@hiddify.com",
+          "uuid": "5cb7a42b-9664-430f-9e4b-2430a04d1cb7"
+        },
+        {
+          "flow": "",
+          "name": "05893b60-4e15-4ec3-9e4f-d3f51358402f@hiddify.com",
+          "uuid": "05893b60-4e15-4ec3-9e4f-d3f51358402f"
+        },
+        {
+          "flow": "",
+          "name": "bd8d3a6c-9bf7-400e-8287-960021bd92e6@hiddify.com",
+          "uuid": "bd8d3a6c-9bf7-400e-8287-960021bd92e6"
+        },
+        {
+          "flow": "",
+          "name": "f6f785cc-eea7-41c9-bed0-661838916b81@hiddify.com",
+          "uuid": "f6f785cc-eea7-41c9-bed0-661838916b81"
+        },
+        {
+          "flow": "",
+          "name": "25a2cbac-6c8b-4def-9707-d6e5f9f6abc4@hiddify.com",
+          "uuid": "25a2cbac-6c8b-4def-9707-d6e5f9f6abc4"
+        },
+        {
+          "flow": "",
+          "name": "a94d1a86-a84d-4b42-b602-595f2ba735a2@hiddify.com",
+          "uuid": "a94d1a86-a84d-4b42-b602-595f2ba735a2"
+        },
+        {
+          "flow": "",
+          "name": "e8fd7557-f51d-4044-942b-4021261605f1@hiddify.com",
+          "uuid": "e8fd7557-f51d-4044-942b-4021261605f1"
+        },
+        {
+          "flow": "",
+          "name": "e8f2b9dc-8812-4ccd-bf70-ceb32d634a97@hiddify.com",
+          "uuid": "e8f2b9dc-8812-4ccd-bf70-ceb32d634a97"
+        },
+        {
+          "flow": "",
+          "name": "b69a47e6-fa67-472c-9585-732edc8fdd6b@hiddify.com",
+          "uuid": "b69a47e6-fa67-472c-9585-732edc8fdd6b"
+        },
+        {
+          "flow": "",
+          "name": "fc5c88a0-9809-45b2-bb47-f26a14ffa65d@hiddify.com",
+          "uuid": "fc5c88a0-9809-45b2-bb47-f26a14ffa65d"
+        },
+        {
+          "flow": "",
+          "name": "941a3c13-a9aa-44a2-a29f-35d8849092d0@hiddify.com",
+          "uuid": "941a3c13-a9aa-44a2-a29f-35d8849092d0"
+        },
+        {
+          "flow": "",
+          "name": "0bbbd5be-6643-4ea5-adc8-6ff86a0efb65@hiddify.com",
+          "uuid": "0bbbd5be-6643-4ea5-adc8-6ff86a0efb65"
+        },
+        {
+          "flow": "",
+          "name": "14436cb5-91ba-4077-8d92-ac5a19c6535e@hiddify.com",
+          "uuid": "14436cb5-91ba-4077-8d92-ac5a19c6535e"
+        },
+        {
+          "flow": "",
+          "name": "07671b2b-ae99-4e85-b1fe-a424a5490c9c@hiddify.com",
+          "uuid": "07671b2b-ae99-4e85-b1fe-a424a5490c9c"
+        },
+        {
+          "flow": "",
+          "name": "d069bfb6-20ac-43c3-98ec-b5f4971288db@hiddify.com",
+          "uuid": "d069bfb6-20ac-43c3-98ec-b5f4971288db"
+        }
+      ]
+    }
+  ],
+  "outbounds": [
+    {
+      "tag": "direct",
+      "type": "direct"
+    }
+  ]
+}

@@ -4,7 +4,20 @@ import json
 import re
 import os
 import shutil
+from pathlib import Path
 from typing import Dict, List, Tuple, Optional
+
+# --- Настройка базового префикса (на случай chroot/host-монтажа)
+ROOT_PREFIX = Path(os.getenv("ROOT_PREFIX", "/")).resolve()
+
+def under_root(p: str) -> str:
+    """Склеивает путь относительно ROOT_PREFIX, гарантируя абсолютный путь."""
+    return str((ROOT_PREFIX / p.lstrip("/")).resolve())
+
+# Абсолютные пути по умолчанию
+HAP_PATH     = under_root("/etc/haproxy/haproxy.cfg")
+CHANGES_PATH = under_root("/vpn/changes_dict.json")
+DOMAIN_PATH  = under_root("/vpn/masq_domain_list.json")
 
 # Теги, для которых действительно есть path_beg в haproxy.cfg
 TAG_TO_BACKENDS: Dict[str, List[str]] = {
@@ -12,7 +25,6 @@ TAG_TO_BACKENDS: Dict[str, List[str]] = {
     "v10-vless-grpc": ["v10-vless-grpc", "v10-vless-grpc-http"],
     "v10-vless-httpupgrade": ["v10-vless-httpupgrade"],
     "v10-vless-tcp": ["v10-vless-tcp", "v10-vless-tcp-http"],
-
 
     "v10-vmess-ws": ["v10-vmess-ws"],
     "v10-vmess-grpc": ["v10-vmess-grpc", "v10-vmess-grpc-http"],
@@ -65,7 +77,7 @@ def _replace_domains(text: str,
     Реальность в конфиге встречается как:
       - req.ssl_sni -i www.habbo.com
       - hdr(host) -i www.habbo.com
-      - www.habbo.com:80 (для http-бэкенда-демаскировки)
+      - www.habbo.com:80
       - просто www.habbo.com
     ShadowTLS встречается как:
       - hdr(host) -i www.shamela.ws
@@ -74,8 +86,7 @@ def _replace_domains(text: str,
     """
 
     def sub_domain(all_text: str, old: str, new: str, label: str) -> str:
-        # Сначала ":" с портом, потом голый домен
-        rx_port = re.compile(rf'\b{re.escape(old)}:80\b')
+        rx_port  = re.compile(rf'\b{re.escape(old)}:80\b')
         rx_plain = re.compile(rf'\b{re.escape(old)}\b')
 
         def _sub_port(m: re.Match) -> str:
@@ -97,11 +108,9 @@ def _replace_domains(text: str,
         return all_text
 
     if reality_server_name:
-        # заменяем все вхождения habbo
         text = sub_domain(text, "www.habbo.com", reality_server_name, "Reality")
 
     if shadowtls_server_name:
-        # заменяем все вхождения shamela
         text = sub_domain(text, "www.shamela.ws", shadowtls_server_name, "ShadowTLS")
 
     return text
@@ -123,6 +132,9 @@ def apply_haproxy_changes(
 
     Возвращает (новый_текст, лог_изменений).
     """
+    if not os.path.isfile(haproxy_path):
+        raise FileNotFoundError(f"haproxy.cfg не найден: {haproxy_path}")
+
     with open(haproxy_path, "r", encoding="utf-8") as f:
         text = f.read()
 
@@ -151,30 +163,35 @@ def apply_haproxy_changes(
 
     return text, notes
 
-
-# --- Пример запуска как скрипта ---
-ROOT_PREFIX = os.getenv("ROOT_PREFIX", "")
-HAP_PATH = os.path.join(ROOT_PREFIX, "etc/haproxy/haproxy.cfg")   # будет /host/etc/haproxy/haproxy.cfg
-CHANGES_PATH = os.path.join(ROOT_PREFIX, "vpn/changes_dict.json") # будет /host/opt/changes_dict.json
-
-DOMAIN_PATH = os.path.join(ROOT_PREFIX, "vpn/masq_domain_list.json") # будет /host/opt/changes_dict.json
-
+# --- Точка входа как скрипт ---
 if __name__ == "__main__":
-    with open(DOMAIN_PATH, 'r', encoding='utf-8') as file_1:
-        domain = json.load(file_1)
-    hap_path = HAP_PATH
-    with open(CHANGES_PATH, 'r', encoding='utf-8') as file:
-        path_changes = json.load(file)
+    # Проверяем входные файлы
+    if not os.path.isfile(DOMAIN_PATH):
+        raise FileNotFoundError(f"Список доменов (masq) не найден: {DOMAIN_PATH}")
+    if not os.path.isfile(CHANGES_PATH):
+        raise FileNotFoundError(f"Файл изменений путей не найден: {CHANGES_PATH}")
+    if not os.path.isfile(HAP_PATH):
+        raise FileNotFoundError(f"haproxy.cfg не найден: {HAP_PATH}")
 
-    reality = None
-    shadowtls = None
+    # DOMAIN_PATH ожидается как список из минимум 2 доменов
+    with open(DOMAIN_PATH, 'r', encoding='utf-8') as f_dom:
+        domain_list = json.load(f_dom)
+        if not isinstance(domain_list, list) or len(domain_list) < 2:
+            raise ValueError(f"{DOMAIN_PATH} должен быть списком длиной >= 2")
+        reality_domain   = str(domain_list[0]).strip()
+        shadowtls_domain = str(domain_list[1]).strip()
+
+    with open(CHANGES_PATH, 'r', encoding='utf-8') as f_changes:
+        path_changes = json.load(f_changes)
+        if not isinstance(path_changes, dict):
+            raise ValueError(f"{CHANGES_PATH} должен быть JSON-объектом с map тег->путь")
 
     _, log = apply_haproxy_changes(
-        haproxy_path=hap_path,
+        haproxy_path=HAP_PATH,
         path_changes=path_changes,
-        reality_server_name=domain[0],
-        shadowtls_server_name=domain[1],
-        out_path=hap_path,
+        reality_server_name=reality_domain or None,
+        shadowtls_server_name=shadowtls_domain or None,
+        out_path=HAP_PATH,
         dry_run=False
     )
     print("\n".join(log))
